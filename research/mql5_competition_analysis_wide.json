@@ -1,0 +1,2245 @@
+{
+  "generated_at": "2026-10-01T20:35:53.098059+00:00",
+  "source": "https://www.mql5.com/en/market/mt5",
+  "niches": [
+    {
+      "id": "position_size_calculator",
+      "label": "Position Size Calculator",
+      "terms": [
+        "position size calculator"
+      ],
+      "per_term": [
+        {
+          "term": "position size calculator",
+          "url": "https://www.mql5.com/en/market/mt5?filter=position%20size%20calculator",
+          "error": null,
+          "result_pages": 2,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 140,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 140,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Forex Trade Manager MT5",
+          "url": "https://www.mql5.com/en/market/product/39150",
+          "author": "InvestSoft",
+          "category": "Utilities",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 4.98,
+          "review_count": 684
+        },
+        {
+          "name": "Blodsalgo Analitycs",
+          "url": "https://www.mql5.com/en/market/product/163894",
+          "author": "BLODSALGO LIMITED",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 8
+        },
+        {
+          "name": "Position Size Calculator Gadget",
+          "url": "https://www.mql5.com/en/market/product/138250",
+          "author": "Luca Spinello",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.5,
+          "review_count": 6
+        },
+        {
+          "name": "Pulsar Terminal MT5",
+          "url": "https://www.mql5.com/en/market/product/163926",
+          "author": "Astralys LLC",
+          "category": "Utilities",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 5.0,
+          "review_count": 5
+        },
+        {
+          "name": "ICT Turtle Soup",
+          "url": "https://www.mql5.com/en/market/product/154303",
+          "author": "Rizwan Akram",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 4
+        },
+        {
+          "name": "Visual Risk and Position Size Calculator",
+          "url": "https://www.mql5.com/en/market/product/183000",
+          "author": "Amal Yuldashev",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 2
+        },
+        {
+          "name": "MT5 Trading Deck",
+          "url": "https://www.mql5.com/en/market/product/108452",
+          "author": "Manuel Michiels",
+          "category": "Utilities",
+          "price": {
+            "amount": 289.0,
+            "currency": "USD",
+            "raw": "289 USD"
+          },
+          "rating": 5.0,
+          "review_count": 2
+        },
+        {
+          "name": "Titan Trade Panel",
+          "url": "https://www.mql5.com/en/market/product/131734",
+          "author": "Thi Ngoc Tram Le",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.5,
+          "review_count": 2
+        },
+        {
+          "name": "Smart Market Structure Toolkit",
+          "url": "https://www.mql5.com/en/market/product/165678",
+          "author": "Garry James Goodchild",
+          "category": "Indicators",
+          "price": {
+            "amount": 175.0,
+            "currency": "USD",
+            "raw": "175 USD"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Kalifx P S Calculator",
+          "url": "https://www.mql5.com/en/market/product/174372",
+          "author": "Calvin Andile Mahlangu",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 140,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 289.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 6,
+          "paid": 4,
+          "unknown_price": 0,
+          "percent_free": 60.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Forex Trade Manager MT5",
+            "review_count": 684,
+            "rating": 4.98,
+            "price": {
+              "amount": 99.0,
+              "currency": "USD",
+              "raw": "99 USD"
+            }
+          },
+          {
+            "name": "Blodsalgo Analitycs",
+            "review_count": 8,
+            "rating": 5.0,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Position Size Calculator Gadget",
+            "review_count": 6,
+            "rating": 4.5,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "trade_journal",
+      "label": "Trade Journal",
+      "terms": [
+        "trade journal"
+      ],
+      "per_term": [
+        {
+          "term": "trade journal",
+          "url": "https://www.mql5.com/en/market/mt5?filter=trade%20journal",
+          "error": null,
+          "result_pages": 2,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 140,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 140,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Trade2Telegram",
+          "url": "https://www.mql5.com/en/market/product/152928",
+          "author": "Strifor (Mauritius) Ltd",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 11
+        },
+        {
+          "name": "Trade Journal Ultimate",
+          "url": "https://www.mql5.com/en/market/product/163764",
+          "author": "Janitha Sandaruwan Amaradasa Wickramasingha Arachchilage",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Live Percentage PnL Indicator MT5",
+          "url": "https://www.mql5.com/en/market/product/137786",
+          "author": "DigitalPrime",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "FX Monitor",
+          "url": "https://www.mql5.com/en/market/product/182644",
+          "author": "Ivan Pochta",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Trading View ToMT5",
+          "url": "https://www.mql5.com/en/market/product/145640",
+          "author": "Mirel Daniel Gheonu",
+          "category": "Utilities",
+          "price": {
+            "amount": 45.0,
+            "currency": "USD",
+            "raw": "45 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Performance Calendar",
+          "url": "https://www.mql5.com/en/market/product/181699",
+          "author": "Ian Nganga Comba",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "EX5 Signal Copier",
+          "url": "https://www.mql5.com/en/market/product/165363",
+          "author": "Rajesh Kumar Nait",
+          "category": "Libraries",
+          "price": {
+            "amount": 30.0,
+            "currency": "USD",
+            "raw": "30 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Trade Analyzer Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/180811",
+          "author": "Ian Nganga Comba",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Ultimate RR Toolkit",
+          "url": "https://www.mql5.com/en/market/product/176401",
+          "author": "Paul Kimathi Muthee",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Trading Journal",
+          "url": "https://www.mql5.com/en/market/product/181737",
+          "author": "Ian Nganga Comba",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 140,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 45.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 8,
+          "paid": 2,
+          "unknown_price": 0,
+          "percent_free": 80.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Trade2Telegram",
+            "review_count": 11,
+            "rating": 5.0,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Trade Journal Ultimate",
+            "review_count": 1,
+            "rating": 5.0,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Live Percentage PnL Indicator MT5",
+            "review_count": 1,
+            "rating": 5.0,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "news_filter",
+      "label": "News Filter",
+      "terms": [
+        "news filter"
+      ],
+      "per_term": [
+        {
+          "term": "news filter",
+          "url": "https://www.mql5.com/en/market/mt5?filter=news%20filter",
+          "error": null,
+          "result_pages": 25,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 1750,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 1750,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Scalping Robot Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/149463",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1099.99,
+            "currency": "USD",
+            "raw": "1 099.99 USD"
+          },
+          "rating": 4.38,
+          "review_count": 166
+        },
+        {
+          "name": "Big Forex Players MT5",
+          "url": "https://www.mql5.com/en/market/product/92199",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 2499.0,
+            "currency": "USD",
+            "raw": "2 499 USD"
+          },
+          "rating": 4.76,
+          "review_count": 141
+        },
+        {
+          "name": "XG Gold Robot MT5",
+          "url": "https://www.mql5.com/en/market/product/92195",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1799.0,
+            "currency": "USD",
+            "raw": "1 799 USD"
+          },
+          "rating": 4.34,
+          "review_count": 113
+        },
+        {
+          "name": "SmartChoise",
+          "url": "https://www.mql5.com/en/market/product/128606",
+          "author": "Gabriel Costin Floricel",
+          "category": "Experts",
+          "price": {
+            "amount": 299.0,
+            "currency": "USD",
+            "raw": "299 USD"
+          },
+          "rating": 4.22,
+          "review_count": 83
+        },
+        {
+          "name": "Smart Gold Hunter",
+          "url": "https://www.mql5.com/en/market/product/170050",
+          "author": "Barbaros Bulent Kortarla",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.11,
+          "review_count": 75
+        },
+        {
+          "name": "Lizard",
+          "url": "https://www.mql5.com/en/market/product/172541",
+          "author": "Marco Scherer",
+          "category": "Experts",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 4.2,
+          "review_count": 59
+        },
+        {
+          "name": "One Gold MT5",
+          "url": "https://www.mql5.com/en/market/product/106351",
+          "author": "Stanislav Tomilov",
+          "category": "Experts",
+          "price": {
+            "amount": 195.0,
+            "currency": "USD",
+            "raw": "195 USD"
+          },
+          "rating": 4.78,
+          "review_count": 49
+        },
+        {
+          "name": "Aurum AI mt5",
+          "url": "https://www.mql5.com/en/market/product/126802",
+          "author": "Leonid Arkhipov",
+          "category": "Experts",
+          "price": {
+            "amount": 499.0,
+            "currency": "USD",
+            "raw": "499 USD"
+          },
+          "rating": 4.81,
+          "review_count": 48
+        },
+        {
+          "name": "The Gold Phantom",
+          "url": "https://www.mql5.com/en/market/product/161561",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 649.0,
+            "currency": "USD",
+            "raw": "649 USD"
+          },
+          "rating": 4.72,
+          "review_count": 47
+        },
+        {
+          "name": "GOLD Scalper PRO MT5",
+          "url": "https://www.mql5.com/en/market/product/33508",
+          "author": "Lachezar Krastev",
+          "category": "Experts",
+          "price": {
+            "amount": 217.0,
+            "currency": "USD",
+            "raw": "217 USD"
+          },
+          "rating": 4.46,
+          "review_count": 41
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 1750,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 99.0,
+          "max": 2499.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 0,
+          "paid": 10,
+          "unknown_price": 0,
+          "percent_free": 0.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Scalping Robot Pro MT5",
+            "review_count": 166,
+            "rating": 4.38,
+            "price": {
+              "amount": 1099.99,
+              "currency": "USD",
+              "raw": "1 099.99 USD"
+            }
+          },
+          {
+            "name": "Big Forex Players MT5",
+            "review_count": 141,
+            "rating": 4.76,
+            "price": {
+              "amount": 2499.0,
+              "currency": "USD",
+              "raw": "2 499 USD"
+            }
+          },
+          {
+            "name": "XG Gold Robot MT5",
+            "review_count": 113,
+            "rating": 4.34,
+            "price": {
+              "amount": 1799.0,
+              "currency": "USD",
+              "raw": "1 799 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "grid_martingale_ea",
+      "label": "Grid / Martingale EA",
+      "terms": [
+        "grid"
+      ],
+      "per_term": [
+        {
+          "term": "grid",
+          "url": "https://www.mql5.com/en/market/mt5?filter=grid",
+          "error": null,
+          "result_pages": 113,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 7910,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 7910,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Quantum King EA",
+          "url": "https://www.mql5.com/en/market/product/152162",
+          "author": "Bogdan Ion Puscasu",
+          "category": "Experts",
+          "price": {
+            "amount": 599.99,
+            "currency": "USD",
+            "raw": "599.99 USD"
+          },
+          "rating": 4.96,
+          "review_count": 221
+        },
+        {
+          "name": "Scalping Robot Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/149463",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1099.99,
+            "currency": "USD",
+            "raw": "1 099.99 USD"
+          },
+          "rating": 4.38,
+          "review_count": 166
+        },
+        {
+          "name": "TwisterPro Scalper",
+          "url": "https://www.mql5.com/en/market/product/166740",
+          "author": "Jorge Luiz Guimaraes De Araujo Dias",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.35,
+          "review_count": 139
+        },
+        {
+          "name": "The Gold Reaper MT5",
+          "url": "https://www.mql5.com/en/market/product/111357",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 949.0,
+            "currency": "USD",
+            "raw": "949 USD"
+          },
+          "rating": 4.48,
+          "review_count": 107
+        },
+        {
+          "name": "Smart Gold Hunter",
+          "url": "https://www.mql5.com/en/market/product/170050",
+          "author": "Barbaros Bulent Kortarla",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.11,
+          "review_count": 75
+        },
+        {
+          "name": "Quantum Queen X MT5",
+          "url": "https://www.mql5.com/en/market/product/185687",
+          "author": "Bogdan Ion Puscasu",
+          "category": "Experts",
+          "price": {
+            "amount": 1199.99,
+            "currency": "USD",
+            "raw": "1 199.99 USD"
+          },
+          "rating": 5.0,
+          "review_count": 66
+        },
+        {
+          "name": "Gold House MT5",
+          "url": "https://www.mql5.com/en/market/product/165036",
+          "author": "Chen Jia Qi",
+          "category": "Experts",
+          "price": {
+            "amount": 749.0,
+            "currency": "USD",
+            "raw": "749 USD"
+          },
+          "rating": 4.44,
+          "review_count": 61
+        },
+        {
+          "name": "Lizard",
+          "url": "https://www.mql5.com/en/market/product/172541",
+          "author": "Marco Scherer",
+          "category": "Experts",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 4.2,
+          "review_count": 59
+        },
+        {
+          "name": "Wave Rider EA MT5",
+          "url": "https://www.mql5.com/en/market/product/165897",
+          "author": "Adam Hrncir",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.81,
+          "review_count": 43
+        },
+        {
+          "name": "Quantum Titan MT5",
+          "url": "https://www.mql5.com/en/market/product/113770",
+          "author": "Bogdan Ion Puscasu",
+          "category": "Experts",
+          "price": {
+            "amount": 1299.99,
+            "currency": "USD",
+            "raw": "1 299.99 USD"
+          },
+          "rating": 4.69,
+          "review_count": 39
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 7910,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 99.0,
+          "max": 1299.99
+        },
+        "free_vs_paid_in_top10": {
+          "free": 0,
+          "paid": 10,
+          "unknown_price": 0,
+          "percent_free": 0.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Quantum King EA",
+            "review_count": 221,
+            "rating": 4.96,
+            "price": {
+              "amount": 599.99,
+              "currency": "USD",
+              "raw": "599.99 USD"
+            }
+          },
+          {
+            "name": "Scalping Robot Pro MT5",
+            "review_count": 166,
+            "rating": 4.38,
+            "price": {
+              "amount": 1099.99,
+              "currency": "USD",
+              "raw": "1 099.99 USD"
+            }
+          },
+          {
+            "name": "TwisterPro Scalper",
+            "review_count": 139,
+            "rating": 4.35,
+            "price": {
+              "amount": 399.0,
+              "currency": "USD",
+              "raw": "399 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "copy_trading_signal_copier",
+      "label": "Copy Trading / Signal Copier",
+      "terms": [
+        "copy trading",
+        "signal copier"
+      ],
+      "per_term": [
+        {
+          "term": "copy trading",
+          "url": "https://www.mql5.com/en/market/mt5?filter=copy%20trading",
+          "error": null,
+          "result_pages": 3,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 210,
+            "is_exact": false
+          }
+        },
+        {
+          "term": "signal copier",
+          "url": "https://www.mql5.com/en/market/mt5?filter=signal%20copier",
+          "error": null,
+          "result_pages": 1,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 32,
+            "is_exact": true
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 210,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Trade copier MT5",
+          "url": "https://www.mql5.com/en/market/product/46312",
+          "author": "Alfiya Fazylova",
+          "category": "Utilities",
+          "price": {
+            "amount": 39.0,
+            "currency": "USD",
+            "raw": "39 USD"
+          },
+          "rating": 4.61,
+          "review_count": 56
+        },
+        {
+          "name": "Ultimate Breakout System",
+          "url": "https://www.mql5.com/en/market/product/133653",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 1699.0,
+            "currency": "USD",
+            "raw": "1 699 USD"
+          },
+          "rating": 5.0,
+          "review_count": 52
+        },
+        {
+          "name": "Telegram To MT5 Copier",
+          "url": "https://www.mql5.com/en/market/product/57900",
+          "author": "Trinh Dat",
+          "category": "Utilities",
+          "price": {
+            "amount": 149.0,
+            "currency": "USD",
+            "raw": "149 USD"
+          },
+          "rating": 4.96,
+          "review_count": 48
+        },
+        {
+          "name": "Telegram to MT5 MultiChannel Copier",
+          "url": "https://www.mql5.com/en/market/product/172706",
+          "author": "Sergio Marquez Uroz",
+          "category": "Utilities",
+          "price": {
+            "amount": 129.99,
+            "currency": "USD",
+            "raw": "129.99 USD"
+          },
+          "rating": 4.59,
+          "review_count": 17
+        },
+        {
+          "name": "Uber Trade Manager",
+          "url": "https://www.mql5.com/en/market/product/93171",
+          "author": "Meelis Hynninen",
+          "category": "Utilities",
+          "price": {
+            "amount": 36.0,
+            "currency": "USD",
+            "raw": "36 USD"
+          },
+          "rating": 4.88,
+          "review_count": 16
+        },
+        {
+          "name": "Auto Fibo Retracement MT5",
+          "url": "https://www.mql5.com/en/market/product/95193",
+          "author": "Nguyen Tuan Son",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 10
+        },
+        {
+          "name": "Fast CopyTrade LAN",
+          "url": "https://www.mql5.com/en/market/product/146475",
+          "author": "Achraf Mouine",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 6
+        },
+        {
+          "name": "AI TelePilot for MT5",
+          "url": "https://www.mql5.com/en/market/product/182729",
+          "author": "Herry Sukwanto",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.17,
+          "review_count": 6
+        },
+        {
+          "name": "Capital Care 5 Exaado",
+          "url": "https://www.mql5.com/en/market/product/98399",
+          "author": "Mohamed Mahdy Mohamed Abdelmoneim",
+          "category": "Utilities",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 5.0,
+          "review_count": 5
+        },
+        {
+          "name": "Telegram To MT5 Ultra",
+          "url": "https://www.mql5.com/en/market/product/178369",
+          "author": "Mirel Daniel Gheonu",
+          "category": "Utilities",
+          "price": {
+            "amount": 39.0,
+            "currency": "USD",
+            "raw": "39 USD"
+          },
+          "rating": 5.0,
+          "review_count": 5
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 210,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 1699.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 4,
+          "paid": 6,
+          "unknown_price": 0,
+          "percent_free": 40.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Trade copier MT5",
+            "review_count": 56,
+            "rating": 4.61,
+            "price": {
+              "amount": 39.0,
+              "currency": "USD",
+              "raw": "39 USD"
+            }
+          },
+          {
+            "name": "Ultimate Breakout System",
+            "review_count": 52,
+            "rating": 5.0,
+            "price": {
+              "amount": 1699.0,
+              "currency": "USD",
+              "raw": "1 699 USD"
+            }
+          },
+          {
+            "name": "Telegram To MT5 Copier",
+            "review_count": 48,
+            "rating": 4.96,
+            "price": {
+              "amount": 149.0,
+              "currency": "USD",
+              "raw": "149 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "scalping",
+      "label": "Scalping",
+      "terms": [
+        "scalping"
+      ],
+      "per_term": [
+        {
+          "term": "scalping",
+          "url": "https://www.mql5.com/en/market/mt5?filter=scalping",
+          "error": null,
+          "result_pages": 69,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 4830,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 4830,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Smart Trend Trading System MT5",
+          "url": "https://www.mql5.com/en/market/product/103515",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 4.79,
+          "review_count": 210
+        },
+        {
+          "name": "Scalping Robot Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/149463",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1099.99,
+            "currency": "USD",
+            "raw": "1 099.99 USD"
+          },
+          "rating": 4.38,
+          "review_count": 166
+        },
+        {
+          "name": "Big Forex Players MT5",
+          "url": "https://www.mql5.com/en/market/product/92199",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 2499.0,
+            "currency": "USD",
+            "raw": "2 499 USD"
+          },
+          "rating": 4.76,
+          "review_count": 141
+        },
+        {
+          "name": "TwisterPro Scalper",
+          "url": "https://www.mql5.com/en/market/product/166740",
+          "author": "Jorge Luiz Guimaraes De Araujo Dias",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.35,
+          "review_count": 139
+        },
+        {
+          "name": "XG Gold Robot MT5",
+          "url": "https://www.mql5.com/en/market/product/92195",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1799.0,
+            "currency": "USD",
+            "raw": "1 799 USD"
+          },
+          "rating": 4.34,
+          "review_count": 113
+        },
+        {
+          "name": "Smart Gold Hunter",
+          "url": "https://www.mql5.com/en/market/product/170050",
+          "author": "Barbaros Bulent Kortarla",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.11,
+          "review_count": 75
+        },
+        {
+          "name": "Atomic Analyst MT5",
+          "url": "https://www.mql5.com/en/market/product/114662",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 4.47,
+          "review_count": 60
+        },
+        {
+          "name": "Ultimate Breakout System",
+          "url": "https://www.mql5.com/en/market/product/133653",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 1699.0,
+            "currency": "USD",
+            "raw": "1 699 USD"
+          },
+          "rating": 5.0,
+          "review_count": 52
+        },
+        {
+          "name": "Wave Rider EA MT5",
+          "url": "https://www.mql5.com/en/market/product/165897",
+          "author": "Adam Hrncir",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.81,
+          "review_count": 43
+        },
+        {
+          "name": "Trend Catcher EA Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/153494",
+          "author": "Issam Kassas",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.4,
+          "review_count": 40
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 4830,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 2499.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 1,
+          "paid": 9,
+          "unknown_price": 0,
+          "percent_free": 10.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Smart Trend Trading System MT5",
+            "review_count": 210,
+            "rating": 4.79,
+            "price": {
+              "amount": 99.0,
+              "currency": "USD",
+              "raw": "99 USD"
+            }
+          },
+          {
+            "name": "Scalping Robot Pro MT5",
+            "review_count": 166,
+            "rating": 4.38,
+            "price": {
+              "amount": 1099.99,
+              "currency": "USD",
+              "raw": "1 099.99 USD"
+            }
+          },
+          {
+            "name": "Big Forex Players MT5",
+            "review_count": 141,
+            "rating": 4.76,
+            "price": {
+              "amount": 2499.0,
+              "currency": "USD",
+              "raw": "2 499 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "trend_following",
+      "label": "Trend Following",
+      "terms": [
+        "trend following"
+      ],
+      "per_term": [
+        {
+          "term": "trend following",
+          "url": "https://www.mql5.com/en/market/mt5?filter=trend%20following",
+          "error": null,
+          "result_pages": 13,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 910,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 910,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Dark Venus MT5",
+          "url": "https://www.mql5.com/en/market/product/56365",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.6,
+          "review_count": 1501
+        },
+        {
+          "name": "Dark Point MT5",
+          "url": "https://www.mql5.com/en/market/product/71378",
+          "author": "Marco Solito",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.77,
+          "review_count": 476
+        },
+        {
+          "name": "Dark Moon MT5",
+          "url": "https://www.mql5.com/en/market/product/63659",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.62,
+          "review_count": 323
+        },
+        {
+          "name": "Dark Gold MT5",
+          "url": "https://www.mql5.com/en/market/product/72316",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 199.0,
+            "currency": "USD",
+            "raw": "199 USD"
+          },
+          "rating": 4.55,
+          "review_count": 101
+        },
+        {
+          "name": "Dark Mimas MT5",
+          "url": "https://www.mql5.com/en/market/product/66348",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.51,
+          "review_count": 92
+        },
+        {
+          "name": "Dark Rea MT5",
+          "url": "https://www.mql5.com/en/market/product/69141",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.64,
+          "review_count": 75
+        },
+        {
+          "name": "Dark Dione MT5",
+          "url": "https://www.mql5.com/en/market/product/66649",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.55,
+          "review_count": 58
+        },
+        {
+          "name": "Quantum Baron",
+          "url": "https://www.mql5.com/en/market/product/143402",
+          "author": "Bogdan Ion Puscasu",
+          "category": "Experts",
+          "price": {
+            "amount": 1199.99,
+            "currency": "USD",
+            "raw": "1 199.99 USD"
+          },
+          "rating": 4.71,
+          "review_count": 42
+        },
+        {
+          "name": "XAU Master EA",
+          "url": "https://www.mql5.com/en/market/product/157989",
+          "author": "Bridzik Technologies s. r. o.",
+          "category": "Experts",
+          "price": {
+            "amount": 149.0,
+            "currency": "USD",
+            "raw": "149 USD"
+          },
+          "rating": 3.97,
+          "review_count": 34
+        },
+        {
+          "name": "RelicusRoad MACD v2 MT5",
+          "url": "https://www.mql5.com/en/market/product/104733",
+          "author": "Relicus LLC",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.78,
+          "review_count": 23
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 910,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 1199.99
+        },
+        "free_vs_paid_in_top10": {
+          "free": 7,
+          "paid": 3,
+          "unknown_price": 0,
+          "percent_free": 70.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Dark Venus MT5",
+            "review_count": 1501,
+            "rating": 4.6,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Dark Point MT5",
+            "review_count": 476,
+            "rating": 4.77,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Dark Moon MT5",
+            "review_count": 323,
+            "rating": 4.62,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "multi_timeframe_dashboard",
+      "label": "Multi Timeframe Dashboard",
+      "terms": [
+        "multi timeframe dashboard"
+      ],
+      "per_term": [
+        {
+          "term": "multi timeframe dashboard",
+          "url": "https://www.mql5.com/en/market/mt5?filter=multi%20timeframe%20dashboard",
+          "error": null,
+          "result_pages": 1,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 13,
+            "is_exact": true
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 13,
+        "is_exact": true
+      },
+      "top_results": [
+        {
+          "name": "Triangle Finder MT5",
+          "url": "https://www.mql5.com/en/market/product/78619",
+          "author": "Amir Atif",
+          "category": "Indicators",
+          "price": {
+            "amount": 30.0,
+            "currency": "USD",
+            "raw": "30 USD"
+          },
+          "rating": 3.67,
+          "review_count": 3
+        },
+        {
+          "name": "Ichimoku Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/191565",
+          "author": "Hacene Harrous",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Ed Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/192914",
+          "author": "Egbert Gerhald Janse Van Rensburg",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Trend Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/191497",
+          "author": "Hacene Harrous",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "RSI Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/191412",
+          "author": "Hacene Harrous",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "MA Cross Signal Scan All Pair Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/195550",
+          "author": "Faza Anangga Novansyah",
+          "category": "Indicators",
+          "price": {
+            "amount": 30.0,
+            "currency": "USD",
+            "raw": "30 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Ichimoku Multi Timeframe PRO",
+          "url": "https://www.mql5.com/en/market/product/192636",
+          "author": "Hacene Harrous",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "ADX Trend Strength Pro Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/192214",
+          "author": "Do Thi Phuong Anh",
+          "category": "Indicators",
+          "price": {
+            "amount": 39.0,
+            "currency": "USD",
+            "raw": "39 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Volatility Regime Compass",
+          "url": "https://www.mql5.com/en/market/product/191866",
+          "author": "Martin Alberto Nunez Da Silveira Van Caester",
+          "category": "Indicators",
+          "price": {
+            "amount": 39.0,
+            "currency": "USD",
+            "raw": "39 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Gold Multi Timeframe Dashboard",
+          "url": "https://www.mql5.com/en/market/product/173412",
+          "author": "Syaiful Muthohar",
+          "category": "Indicators",
+          "price": {
+            "amount": 35.0,
+            "currency": "USD",
+            "raw": "35 USD"
+          },
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 13,
+          "is_exact": true
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 49.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 4,
+          "paid": 6,
+          "unknown_price": 0,
+          "percent_free": 40.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Triangle Finder MT5",
+            "review_count": 3,
+            "rating": 3.67,
+            "price": {
+              "amount": 30.0,
+              "currency": "USD",
+              "raw": "30 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "backtesting_strategy_tester",
+      "label": "Backtesting / Strategy Tester",
+      "terms": [
+        "backtesting",
+        "strategy tester"
+      ],
+      "per_term": [
+        {
+          "term": "backtesting",
+          "url": "https://www.mql5.com/en/market/mt5?filter=backtesting",
+          "error": null,
+          "result_pages": 37,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 2590,
+            "is_exact": false
+          }
+        },
+        {
+          "term": "strategy tester",
+          "url": "https://www.mql5.com/en/market/mt5?filter=strategy%20tester",
+          "error": null,
+          "result_pages": 65,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 4550,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 4550,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Scalping Robot Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/149463",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1099.99,
+            "currency": "USD",
+            "raw": "1 099.99 USD"
+          },
+          "rating": 4.38,
+          "review_count": 166
+        },
+        {
+          "name": "Big Forex Players MT5",
+          "url": "https://www.mql5.com/en/market/product/92199",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 2499.0,
+            "currency": "USD",
+            "raw": "2 499 USD"
+          },
+          "rating": 4.76,
+          "review_count": 141
+        },
+        {
+          "name": "The Gold Reaper MT5",
+          "url": "https://www.mql5.com/en/market/product/111357",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 949.0,
+            "currency": "USD",
+            "raw": "949 USD"
+          },
+          "rating": 4.48,
+          "review_count": 107
+        },
+        {
+          "name": "Grid Scalper MA MT5 EA",
+          "url": "https://www.mql5.com/en/market/product/133466",
+          "author": "Allan Munene Mutiiria",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.46,
+          "review_count": 104
+        },
+        {
+          "name": "SmartChoise",
+          "url": "https://www.mql5.com/en/market/product/128606",
+          "author": "Gabriel Costin Floricel",
+          "category": "Experts",
+          "price": {
+            "amount": 299.0,
+            "currency": "USD",
+            "raw": "299 USD"
+          },
+          "rating": 4.22,
+          "review_count": 83
+        },
+        {
+          "name": "Smart Gold Hunter",
+          "url": "https://www.mql5.com/en/market/product/170050",
+          "author": "Barbaros Bulent Kortarla",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.11,
+          "review_count": 75
+        },
+        {
+          "name": "Iron Stops",
+          "url": "https://www.mql5.com/en/market/product/190545",
+          "author": "Fajar Dicky Firmansyah",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.01,
+          "review_count": 73
+        },
+        {
+          "name": "Ultimate Breakout System",
+          "url": "https://www.mql5.com/en/market/product/133653",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 1699.0,
+            "currency": "USD",
+            "raw": "1 699 USD"
+          },
+          "rating": 5.0,
+          "review_count": 52
+        },
+        {
+          "name": "Chiroptera",
+          "url": "https://www.mql5.com/en/market/product/152565",
+          "author": "Rob Josephus Maria Janssen",
+          "category": "Experts",
+          "price": {
+            "amount": 899.0,
+            "currency": "USD",
+            "raw": "899 USD"
+          },
+          "rating": 4.5,
+          "review_count": 50
+        },
+        {
+          "name": "Entry In The Zone and SMC Multi Timeframe",
+          "url": "https://www.mql5.com/en/market/product/129435",
+          "author": "Sirikorn Rungsang",
+          "category": "Indicators",
+          "price": {
+            "amount": 89.0,
+            "currency": "USD",
+            "raw": "89 USD"
+          },
+          "rating": 4.94,
+          "review_count": 49
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 4550,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 2499.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 1,
+          "paid": 9,
+          "unknown_price": 0,
+          "percent_free": 10.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Scalping Robot Pro MT5",
+            "review_count": 166,
+            "rating": 4.38,
+            "price": {
+              "amount": 1099.99,
+              "currency": "USD",
+              "raw": "1 099.99 USD"
+            }
+          },
+          {
+            "name": "Big Forex Players MT5",
+            "review_count": 141,
+            "rating": 4.76,
+            "price": {
+              "amount": 2499.0,
+              "currency": "USD",
+              "raw": "2 499 USD"
+            }
+          },
+          {
+            "name": "The Gold Reaper MT5",
+            "review_count": 107,
+            "rating": 4.48,
+            "price": {
+              "amount": 949.0,
+              "currency": "USD",
+              "raw": "949 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "prop_firm_ftmo",
+      "label": "Prop Firm / FTMO",
+      "terms": [
+        "prop firm",
+        "ftmo"
+      ],
+      "per_term": [
+        {
+          "term": "prop firm",
+          "url": "https://www.mql5.com/en/market/mt5?filter=prop%20firm",
+          "error": null,
+          "result_pages": 35,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 2450,
+            "is_exact": false
+          }
+        },
+        {
+          "term": "ftmo",
+          "url": "https://www.mql5.com/en/market/mt5?filter=ftmo",
+          "error": null,
+          "result_pages": 11,
+          "competitor_count_estimate": {
+            "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+            "value": 770,
+            "is_exact": false
+          }
+        }
+      ],
+      "errors": null,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 2450,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "XAUUSD 5 minute",
+          "url": "https://www.mql5.com/en/market/product/147332",
+          "author": "Bridzik Technologies s. r. o.",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.44,
+          "review_count": 172
+        },
+        {
+          "name": "Scalping Robot Pro MT5",
+          "url": "https://www.mql5.com/en/market/product/149463",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1099.99,
+            "currency": "USD",
+            "raw": "1 099.99 USD"
+          },
+          "rating": 4.38,
+          "review_count": 166
+        },
+        {
+          "name": "Local Trade Copier EA MT5",
+          "url": "https://www.mql5.com/en/market/product/68951",
+          "author": "Juvenille Emperor Limited",
+          "category": "Utilities",
+          "price": {
+            "amount": 50.0,
+            "currency": "USD",
+            "raw": "50 USD"
+          },
+          "rating": 4.94,
+          "review_count": 149
+        },
+        {
+          "name": "Big Forex Players MT5",
+          "url": "https://www.mql5.com/en/market/product/92199",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 2499.0,
+            "currency": "USD",
+            "raw": "2 499 USD"
+          },
+          "rating": 4.76,
+          "review_count": 141
+        },
+        {
+          "name": "Forex GOLD Investor MT5",
+          "url": "https://www.mql5.com/en/market/product/81137",
+          "author": "Lachezar Krastev",
+          "category": "Experts",
+          "price": {
+            "amount": 267.0,
+            "currency": "USD",
+            "raw": "267 USD"
+          },
+          "rating": 4.35,
+          "review_count": 119
+        },
+        {
+          "name": "XG Gold Robot MT5",
+          "url": "https://www.mql5.com/en/market/product/92195",
+          "author": "MQL TOOLS SL",
+          "category": "Experts",
+          "price": {
+            "amount": 1799.0,
+            "currency": "USD",
+            "raw": "1 799 USD"
+          },
+          "rating": 4.34,
+          "review_count": 113
+        },
+        {
+          "name": "The Gold Reaper MT5",
+          "url": "https://www.mql5.com/en/market/product/111357",
+          "author": "Profalgo Limited",
+          "category": "Experts",
+          "price": {
+            "amount": 949.0,
+            "currency": "USD",
+            "raw": "949 USD"
+          },
+          "rating": 4.48,
+          "review_count": 107
+        },
+        {
+          "name": "Dark Algo MT5",
+          "url": "https://www.mql5.com/en/market/product/92403",
+          "author": "Marco Solito",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.63,
+          "review_count": 84
+        },
+        {
+          "name": "HFT PropFirm EA MT5",
+          "url": "https://www.mql5.com/en/market/product/117386",
+          "author": "Dilwyn Tng",
+          "category": "Experts",
+          "price": {
+            "amount": 200.0,
+            "currency": "USD",
+            "raw": "200 USD"
+          },
+          "rating": 4.93,
+          "review_count": 82
+        },
+        {
+          "name": "Smart Gold Hunter",
+          "url": "https://www.mql5.com/en/market/product/170050",
+          "author": "Barbaros Bulent Kortarla",
+          "category": "Experts",
+          "price": {
+            "amount": 349.0,
+            "currency": "USD",
+            "raw": "349 USD"
+          },
+          "rating": 4.11,
+          "review_count": 75
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 2450,
+          "is_exact": false
+        },
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 2499.0
+        },
+        "free_vs_paid_in_top10": {
+          "free": 1,
+          "paid": 9,
+          "unknown_price": 0,
+          "percent_free": 10.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "XAUUSD 5 minute",
+            "review_count": 172,
+            "rating": 4.44,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Scalping Robot Pro MT5",
+            "review_count": 166,
+            "rating": 4.38,
+            "price": {
+              "amount": 1099.99,
+              "currency": "USD",
+              "raw": "1 099.99 USD"
+            }
+          },
+          {
+            "name": "Local Trade Copier EA MT5",
+            "review_count": 149,
+            "rating": 4.94,
+            "price": {
+              "amount": 50.0,
+              "currency": "USD",
+              "raw": "50 USD"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "comparison_table": [
+    {
+      "id": "position_size_calculator",
+      "label": "Position Size Calculator",
+      "competition_level": "Low",
+      "competitor_count_estimate": 140,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 289.0
+      },
+      "percent_free_in_top10": 60.0,
+      "paid_products_with_reviews_in_top10": 4,
+      "max_reviews_on_a_paid_product": 684,
+      "note": null,
+      "rank_most_to_least_promising": 1
+    },
+    {
+      "id": "multi_timeframe_dashboard",
+      "label": "Multi Timeframe Dashboard",
+      "competition_level": "Low",
+      "competitor_count_estimate": 13,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 49.0
+      },
+      "percent_free_in_top10": 40.0,
+      "paid_products_with_reviews_in_top10": 1,
+      "max_reviews_on_a_paid_product": 3,
+      "note": null,
+      "rank_most_to_least_promising": 2
+    },
+    {
+      "id": "trade_journal",
+      "label": "Trade Journal",
+      "competition_level": "Low",
+      "competitor_count_estimate": 140,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 45.0
+      },
+      "percent_free_in_top10": 80.0,
+      "paid_products_with_reviews_in_top10": 0,
+      "max_reviews_on_a_paid_product": 0,
+      "note": null,
+      "rank_most_to_least_promising": 3
+    },
+    {
+      "id": "copy_trading_signal_copier",
+      "label": "Copy Trading / Signal Copier",
+      "competition_level": "Medium",
+      "competitor_count_estimate": 210,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 1699.0
+      },
+      "percent_free_in_top10": 40.0,
+      "paid_products_with_reviews_in_top10": 6,
+      "max_reviews_on_a_paid_product": 56,
+      "note": null,
+      "rank_most_to_least_promising": 4
+    },
+    {
+      "id": "grid_martingale_ea",
+      "label": "Grid / Martingale EA",
+      "competition_level": "High",
+      "competitor_count_estimate": 7910,
+      "price_range_usd": {
+        "min": 99.0,
+        "max": 1299.99
+      },
+      "percent_free_in_top10": 0.0,
+      "paid_products_with_reviews_in_top10": 10,
+      "max_reviews_on_a_paid_product": 221,
+      "note": null,
+      "rank_most_to_least_promising": 5
+    },
+    {
+      "id": "news_filter",
+      "label": "News Filter",
+      "competition_level": "High",
+      "competitor_count_estimate": 1750,
+      "price_range_usd": {
+        "min": 99.0,
+        "max": 2499.0
+      },
+      "percent_free_in_top10": 0.0,
+      "paid_products_with_reviews_in_top10": 10,
+      "max_reviews_on_a_paid_product": 166,
+      "note": null,
+      "rank_most_to_least_promising": 6
+    },
+    {
+      "id": "scalping",
+      "label": "Scalping",
+      "competition_level": "High",
+      "competitor_count_estimate": 4830,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 2499.0
+      },
+      "percent_free_in_top10": 10.0,
+      "paid_products_with_reviews_in_top10": 9,
+      "max_reviews_on_a_paid_product": 210,
+      "note": null,
+      "rank_most_to_least_promising": 7
+    },
+    {
+      "id": "prop_firm_ftmo",
+      "label": "Prop Firm / FTMO",
+      "competition_level": "High",
+      "competitor_count_estimate": 2450,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 2499.0
+      },
+      "percent_free_in_top10": 10.0,
+      "paid_products_with_reviews_in_top10": 9,
+      "max_reviews_on_a_paid_product": 166,
+      "note": null,
+      "rank_most_to_least_promising": 8
+    },
+    {
+      "id": "backtesting_strategy_tester",
+      "label": "Backtesting / Strategy Tester",
+      "competition_level": "High",
+      "competitor_count_estimate": 4550,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 2499.0
+      },
+      "percent_free_in_top10": 10.0,
+      "paid_products_with_reviews_in_top10": 9,
+      "max_reviews_on_a_paid_product": 166,
+      "note": null,
+      "rank_most_to_least_promising": 9
+    },
+    {
+      "id": "trend_following",
+      "label": "Trend Following",
+      "competition_level": "High",
+      "competitor_count_estimate": 910,
+      "price_range_usd": {
+        "min": 0.0,
+        "max": 1199.99
+      },
+      "percent_free_in_top10": 70.0,
+      "paid_products_with_reviews_in_top10": 3,
+      "max_reviews_on_a_paid_product": 101,
+      "note": null,
+      "rank_most_to_least_promising": 10
+    }
+  ],
+  "comparison_table_method": "competition_level: Low < 200, Medium < 600, else High (estimate = page_size x last_page_number, an upper bound). Ranked by competition_level asc, then by count of top-10 paid products with real reviews desc (proof of paid demand), then by the biggest such product's review count desc, then by competitor estimate asc."
+}

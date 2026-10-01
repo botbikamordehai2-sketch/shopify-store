@@ -1,0 +1,760 @@
+{
+  "generated_at": "2026-10-01T20:23:59.923938+00:00",
+  "source": "https://www.mql5.com/en/market/mt5",
+  "terms": [
+    "smart money concepts",
+    "order block",
+    "supply and demand",
+    "ICT"
+  ],
+  "niches": [
+    {
+      "term": "smart money concepts",
+      "url": "https://www.mql5.com/en/market/mt5?filter=smart%20money%20concepts",
+      "products_on_first_page": 70,
+      "result_pages": 16,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 1120,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Institutional SMC Robot",
+          "url": "https://www.mql5.com/en/market/product/187011",
+          "author": "Dragoljub Vujcic",
+          "category": "Experts",
+          "price": {
+            "amount": 299.0,
+            "currency": "USD",
+            "raw": "299 USD"
+          },
+          "rating": 5.0,
+          "review_count": 16
+        },
+        {
+          "name": "Entry In The Zone and SMC Multi Timeframe",
+          "url": "https://www.mql5.com/en/market/product/129435",
+          "author": "Sirikorn Rungsang",
+          "category": "Indicators",
+          "price": {
+            "amount": 89.0,
+            "currency": "USD",
+            "raw": "89 USD"
+          },
+          "rating": 4.94,
+          "review_count": 49
+        },
+        {
+          "name": "Market Structure Order Block Dashboard MT5",
+          "url": "https://www.mql5.com/en/market/product/156961",
+          "author": "Prime Horizon",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 5.0,
+          "review_count": 9
+        },
+        {
+          "name": "Smart Price Action Concepts MT5",
+          "url": "https://www.mql5.com/en/market/product/103105",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 4.36,
+          "review_count": 22
+        },
+        {
+          "name": "Gold Trend EA Pro",
+          "url": "https://www.mql5.com/en/market/product/141099",
+          "author": "Sahib Ul Ahsan",
+          "category": "Experts",
+          "price": {
+            "amount": 500.0,
+            "currency": "USD",
+            "raw": "500 USD"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Smc Pro ToolKit",
+          "url": "https://www.mql5.com/en/market/product/177721",
+          "author": "Talal N Z Aljarusha",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 5.0,
+          "review_count": 13
+        },
+        {
+          "name": "CRT Candle Range Theory HTF MT5",
+          "url": "https://www.mql5.com/en/market/product/176767",
+          "author": "Robby Suhendrawan",
+          "category": "Indicators",
+          "price": {
+            "amount": 50.0,
+            "currency": "USD",
+            "raw": "50 USD"
+          },
+          "rating": 4.0,
+          "review_count": 4
+        },
+        {
+          "name": "Supply and Demand Order Blocks MT5",
+          "url": "https://www.mql5.com/en/market/product/107329",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.6,
+          "review_count": 121
+        },
+        {
+          "name": "Crystal Heikin Ashi Pro",
+          "url": "https://www.mql5.com/en/market/product/156775",
+          "author": "Muhammad Jawad Shabir",
+          "category": "Experts",
+          "price": {
+            "amount": 199.0,
+            "currency": "USD",
+            "raw": "199 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Entry In The Zone with SMC Multi Timeframe",
+          "url": "https://www.mql5.com/en/market/product/132925",
+          "author": "Sirikorn Rungsang",
+          "category": "Utilities",
+          "price": {
+            "amount": 119.0,
+            "currency": "USD",
+            "raw": "119 USD"
+          },
+          "rating": 4.83,
+          "review_count": 6
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 1120,
+          "is_exact": false
+        },
+        "result_pages": 16,
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 500.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Supply and Demand Order Blocks MT5",
+            "review_count": 121,
+            "rating": 4.6,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Entry In The Zone and SMC Multi Timeframe",
+            "review_count": 49,
+            "rating": 4.94,
+            "price": {
+              "amount": 89.0,
+              "currency": "USD",
+              "raw": "89 USD"
+            }
+          },
+          {
+            "name": "Smart Price Action Concepts MT5",
+            "review_count": 22,
+            "rating": 4.36,
+            "price": {
+              "amount": 49.0,
+              "currency": "USD",
+              "raw": "49 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "term": "order block",
+      "url": "https://www.mql5.com/en/market/mt5?filter=order%20block",
+      "products_on_first_page": 70,
+      "result_pages": 18,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 1260,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Institutional SMC Robot",
+          "url": "https://www.mql5.com/en/market/product/187011",
+          "author": "Dragoljub Vujcic",
+          "category": "Experts",
+          "price": {
+            "amount": 299.0,
+            "currency": "USD",
+            "raw": "299 USD"
+          },
+          "rating": 5.0,
+          "review_count": 16
+        },
+        {
+          "name": "Entry In The Zone and SMC Multi Timeframe",
+          "url": "https://www.mql5.com/en/market/product/129435",
+          "author": "Sirikorn Rungsang",
+          "category": "Indicators",
+          "price": {
+            "amount": 89.0,
+            "currency": "USD",
+            "raw": "89 USD"
+          },
+          "rating": 4.94,
+          "review_count": 49
+        },
+        {
+          "name": "Market Structure Order Block Dashboard MT5",
+          "url": "https://www.mql5.com/en/market/product/156961",
+          "author": "Prime Horizon",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 5.0,
+          "review_count": 9
+        },
+        {
+          "name": "Smart Price Action Concepts MT5",
+          "url": "https://www.mql5.com/en/market/product/103105",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 4.36,
+          "review_count": 22
+        },
+        {
+          "name": "Gold Trend EA Pro",
+          "url": "https://www.mql5.com/en/market/product/141099",
+          "author": "Sahib Ul Ahsan",
+          "category": "Experts",
+          "price": {
+            "amount": 500.0,
+            "currency": "USD",
+            "raw": "500 USD"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Trading Session ICT KillZone",
+          "url": "https://www.mql5.com/en/market/product/99408",
+          "author": "Han Qin Lin",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.81,
+          "review_count": 63
+        },
+        {
+          "name": "Order Block AI",
+          "url": "https://www.mql5.com/en/market/product/183572",
+          "author": "Ignacio Agustin Mene Franco",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "AA Gold Straddle Rocket type A",
+          "url": "https://www.mql5.com/en/market/product/196501",
+          "author": "Damiem Marchand De Campos",
+          "category": "Experts",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 5.0,
+          "review_count": 3
+        },
+        {
+          "name": "Smc Pro ToolKit",
+          "url": "https://www.mql5.com/en/market/product/177721",
+          "author": "Talal N Z Aljarusha",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 5.0,
+          "review_count": 13
+        },
+        {
+          "name": "Supply and Demand Order Blocks MT5",
+          "url": "https://www.mql5.com/en/market/product/107329",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.6,
+          "review_count": 121
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 1260,
+          "is_exact": false
+        },
+        "result_pages": 18,
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 500.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Supply and Demand Order Blocks MT5",
+            "review_count": 121,
+            "rating": 4.6,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Trading Session ICT KillZone",
+            "review_count": 63,
+            "rating": 4.81,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Entry In The Zone and SMC Multi Timeframe",
+            "review_count": 49,
+            "rating": 4.94,
+            "price": {
+              "amount": 89.0,
+              "currency": "USD",
+              "raw": "89 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "term": "supply and demand",
+      "url": "https://www.mql5.com/en/market/mt5?filter=supply%20and%20demand",
+      "products_on_first_page": 70,
+      "result_pages": 8,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 560,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Boring Pips MT5",
+          "url": "https://www.mql5.com/en/market/product/103505",
+          "author": "Thi Thu Ha Hoang",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.7,
+          "review_count": 54
+        },
+        {
+          "name": "Smart Price Action Concepts MT5",
+          "url": "https://www.mql5.com/en/market/product/103105",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 4.36,
+          "review_count": 22
+        },
+        {
+          "name": "Grid Scalper MA MT5 EA",
+          "url": "https://www.mql5.com/en/market/product/133466",
+          "author": "Allan Munene Mutiiria",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.46,
+          "review_count": 104
+        },
+        {
+          "name": "Order flow footprint chart",
+          "url": "https://www.mql5.com/en/market/product/160805",
+          "author": "Abdul Jalil",
+          "category": "Utilities",
+          "price": {
+            "amount": 149.0,
+            "currency": "USD",
+            "raw": "149 USD"
+          },
+          "rating": 4.4,
+          "review_count": 5
+        },
+        {
+          "name": "Gold Zone EA",
+          "url": "https://www.mql5.com/en/market/product/157473",
+          "author": "Simon Reger",
+          "category": "Experts",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.08,
+          "review_count": 48
+        },
+        {
+          "name": "Supply and Demand Order Blocks MT5",
+          "url": "https://www.mql5.com/en/market/product/107329",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.6,
+          "review_count": 121
+        },
+        {
+          "name": "Nexus Order Block Workspace",
+          "url": "https://www.mql5.com/en/market/product/185202",
+          "author": "Sergejs Rozkalns",
+          "category": "Indicators",
+          "price": {
+            "amount": 39.0,
+            "currency": "USD",
+            "raw": "39 USD"
+          },
+          "rating": 5.0,
+          "review_count": 1
+        },
+        {
+          "name": "Crystal Heikin Ashi Pro",
+          "url": "https://www.mql5.com/en/market/product/156775",
+          "author": "Muhammad Jawad Shabir",
+          "category": "Experts",
+          "price": {
+            "amount": 199.0,
+            "currency": "USD",
+            "raw": "199 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Top Scalper bot",
+          "url": "https://www.mql5.com/en/market/product/192915",
+          "author": "Januaries Mwaka Mawioo",
+          "category": "Experts",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "name": "Orderflow Footprint Futures Chart",
+          "url": "https://www.mql5.com/en/market/product/174307",
+          "author": "Abdul Jalil",
+          "category": "Utilities",
+          "price": {
+            "amount": 179.0,
+            "currency": "USD",
+            "raw": "179 USD"
+          },
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 560,
+          "is_exact": false
+        },
+        "result_pages": 8,
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 399.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Supply and Demand Order Blocks MT5",
+            "review_count": 121,
+            "rating": 4.6,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Grid Scalper MA MT5 EA",
+            "review_count": 104,
+            "rating": 4.46,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Boring Pips MT5",
+            "review_count": 54,
+            "rating": 4.7,
+            "price": {
+              "amount": 399.0,
+              "currency": "USD",
+              "raw": "399 USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "term": "ICT",
+      "url": "https://www.mql5.com/en/market/mt5?filter=ICT",
+      "products_on_first_page": 70,
+      "result_pages": 12,
+      "competitor_count_estimate": {
+        "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+        "value": 840,
+        "is_exact": false
+      },
+      "top_results": [
+        {
+          "name": "Range Breakout EA with Range Filters",
+          "url": "https://www.mql5.com/en/market/product/122237",
+          "author": "Jimmy Peter Eriksson",
+          "category": "Experts",
+          "price": {
+            "amount": 499.0,
+            "currency": "USD",
+            "raw": "499 USD"
+          },
+          "rating": 4.67,
+          "review_count": 30
+        },
+        {
+          "name": "Aura Gold Pro Edition",
+          "url": "https://www.mql5.com/en/market/product/184335",
+          "author": "Stanislav Tomilov",
+          "category": "Experts",
+          "price": {
+            "amount": 499.0,
+            "currency": "USD",
+            "raw": "499 USD"
+          },
+          "rating": 5.0,
+          "review_count": 4
+        },
+        {
+          "name": "Pulse Engine",
+          "url": "https://www.mql5.com/en/market/product/165801",
+          "author": "Jimmy Peter Eriksson",
+          "category": "Experts",
+          "price": {
+            "amount": 599.0,
+            "currency": "USD",
+            "raw": "599 USD"
+          },
+          "rating": 4.06,
+          "review_count": 36
+        },
+        {
+          "name": "Market Anomalies EA",
+          "url": "https://www.mql5.com/en/market/product/155039",
+          "author": "Jimmy Peter Eriksson",
+          "category": "Experts",
+          "price": {
+            "amount": 399.0,
+            "currency": "USD",
+            "raw": "399 USD"
+          },
+          "rating": 4.94,
+          "review_count": 18
+        },
+        {
+          "name": "Prop Firm Gold EA",
+          "url": "https://www.mql5.com/en/market/product/153540",
+          "author": "Jimmy Peter Eriksson",
+          "category": "Experts",
+          "price": {
+            "amount": 499.0,
+            "currency": "USD",
+            "raw": "499 USD"
+          },
+          "rating": 4.59,
+          "review_count": 34
+        },
+        {
+          "name": "Gold Atlas",
+          "url": "https://www.mql5.com/en/market/product/159658",
+          "author": "Jimmy Peter Eriksson",
+          "category": "Experts",
+          "price": {
+            "amount": 449.0,
+            "currency": "USD",
+            "raw": "449 USD"
+          },
+          "rating": 4.61,
+          "review_count": 23
+        },
+        {
+          "name": "Market Structure Order Block Dashboard MT5",
+          "url": "https://www.mql5.com/en/market/product/156961",
+          "author": "Prime Horizon",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 5.0,
+          "review_count": 9
+        },
+        {
+          "name": "Smart Price Action Concepts MT5",
+          "url": "https://www.mql5.com/en/market/product/103105",
+          "author": "Issam Kassas",
+          "category": "Indicators",
+          "price": {
+            "amount": 49.0,
+            "currency": "USD",
+            "raw": "49 USD"
+          },
+          "rating": 4.36,
+          "review_count": 22
+        },
+        {
+          "name": "Trading Session ICT KillZone",
+          "url": "https://www.mql5.com/en/market/product/99408",
+          "author": "Han Qin Lin",
+          "category": "Indicators",
+          "price": {
+            "amount": 0.0,
+            "currency": "USD",
+            "raw": "FREE"
+          },
+          "rating": 4.81,
+          "review_count": 63
+        },
+        {
+          "name": "AA Gold Straddle Rocket type A",
+          "url": "https://www.mql5.com/en/market/product/196501",
+          "author": "Damiem Marchand De Campos",
+          "category": "Experts",
+          "price": {
+            "amount": 99.0,
+            "currency": "USD",
+            "raw": "99 USD"
+          },
+          "rating": 5.0,
+          "review_count": 3
+        }
+      ],
+      "summary": {
+        "competitor_count_estimate": {
+          "method": "page_size * last_page_number (last page may be partial, so this is an upper bound; exact on-page count only when result_pages == 1)",
+          "value": 840,
+          "is_exact": false
+        },
+        "result_pages": 12,
+        "price_range_usd": {
+          "min": 0.0,
+          "max": 599.0
+        },
+        "leading_products_by_review_count": [
+          {
+            "name": "Trading Session ICT KillZone",
+            "review_count": 63,
+            "rating": 4.81,
+            "price": {
+              "amount": 0.0,
+              "currency": "USD",
+              "raw": "FREE"
+            }
+          },
+          {
+            "name": "Pulse Engine",
+            "review_count": 36,
+            "rating": 4.06,
+            "price": {
+              "amount": 599.0,
+              "currency": "USD",
+              "raw": "599 USD"
+            }
+          },
+          {
+            "name": "Prop Firm Gold EA",
+            "review_count": 34,
+            "rating": 4.59,
+            "price": {
+              "amount": 499.0,
+              "currency": "USD",
+              "raw": "499 USD"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

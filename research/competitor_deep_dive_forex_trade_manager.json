@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-10-01T21:49:17.242132+00:00",
+  "product_name": "Forex Trade Manager MT5",
+  "url": "https://www.mql5.com/en/market/product/39150",
+  "metadata": {
+    "category": "Utilities",
+    "overall_rating": 4.98,
+    "total_reviews": 765,
+    "purchases_per_month": 57,
+    "published": "31 May 2019",
+    "current_version": "3.70",
+    "last_updated": "18 June 2026",
+    "activations_per_purchase": "10",
+    "note": "Version history / changelog ('What's new' tab) lives at a URL robots.txt disallows (/market/product/*/updates) and was not fetched. 'current_version' + 'last_updated' above come from the allowed overview page and are the only update-frequency signal used."
+  },
+  "description": "Trade Manager MT5 is an advanced position size calculator and trade management tool for MetaTrader 5, designed to help traders plan trades faster, control risk more precisely, and manage open positions directly from the chart.\n\nIt combines order placement, risk based lot calculation, Stop Loss and Take Profit management, Break Even, Trailing Stop, Partial Close, Equity Protection, and external trade management in one panel.\n\nWhether you trade forex, indices, metals, commodities, crypto, or futures, Trade Manager MT5 helps you keep your trading process organized, consistent, and easier to control.\n\nMT5 Trade Manager is also compatible with custom charts such as Renko or second-based charts and other non-standard chart types.\n\nWith Trade Manager MT5, complex calculations become a thing of the past. Define your trade by marking entry, stop loss, and take profit levels with simple, draggable lines. Set your risk, and Trade Manager instantly calculates your position size and shows real-time SL and TP values in pips, points, or account currency. Every trade is organized and managed effortlessly.\n\nTrade Manager’s simplicity, combined with cutting-edge risk management features, is why we are one of the top-rated tools on the MQL5 Market. Our customers rave about the intuitive design, reliable lot size calculator , and responsive support team.",
+  "feature_groups": [
+    {
+      "heading": "Key Features:",
+      "items": [
+        "Position Size Calculator : Determine trade size instantly based on defined risk, Stop Loss, account balance, equity, or fixed cash amount.",
+        "Easy Trade Planning : Plan trades directly on the chart with draggable horizontal lines for entry, stop loss, and take profit.",
+        "Real-Time Display of SL and TP : View stop loss and take profit in account currency, pips or points for easy analysis.",
+        "External Lot Calculation: Trade Manager can calculate the correct lot size for trades opened outside the panel, including trades opened from the MT5 Mobile App, Web Terminal, another terminal, or another external source connected to the same trading account.",
+        "MT5 Mobile App Trading Support: Open trades from your phone while Trade Manager runs on your desktop terminal or VPS. Trade Manager can detect the mobile trade, read its Stop Loss, calculate the correct lot size, and adjust the final position size automatically."
+      ]
+    },
+    {
+      "heading": "Advanced Protection Tools",
+      "items": [
+        "Break Even Options : Basic Break Even : Protect your profits with automatic breakeven placement. Multi-Level Break Even : Set up to 4 levels for increased security as your trade progresses. Manual Move SL to BE : Move Stop Loss to Break Even manually with one click. Common Break Even : Manage multiple trades as one group with one shared Break Even point. Trade Manager can also display the Common BE line or zone directly on the chart.",
+        "Trailing Stop Variations : Basic Trailing Stop : Adjust with each price move. Multi-Level Trailing Stop : Customize up to 4 levels. Trailing Stop Following Highs and Lows : Adapt to market momentum. Moving Average-Based Trailing Stop : Tailored for trend-followers. ATR-Based Trailing Stop : Account for market volatility. Partial Closure Trailing Stop : Lock in gains progressively.",
+        "Partial Take Profit and Stop Loss : Secure profits gradually with partial TP and SL adjustments.",
+        "Equity Protect : Automatically closes trades at a set profit or loss limit to protect capital and control drawdowns."
+      ]
+    },
+    {
+      "heading": "Stealth and Efficiency Tools",
+      "items": [
+        "Hidden Mode : hide SL and TP, and pending orders to prevent \"stop loss hunting\".",
+        "Automated set SL and TP for External Orders : Protect orders opened by mobile or other EA.",
+        "Trailing Pending Orders : Allow pending orders to follow current price dynamically."
+      ]
+    },
+    {
+      "heading": "Precision Trade Execution",
+      "items": [
+        "Limit Pullback Orders (LPO) : Gain better entry prices by waiting for strategic pullbacks.",
+        "Quick Trade Closure : Close all trades, or choose specific profitable, losing, buy, or sell trades with one click.",
+        "Asynchronous Fast Trade Closing : In the MT5 version, Trade Manager can close groups of trades faster using asynchronous trade operations.",
+        "One-Click Pending Order Deletion : Clean up pending orders instantly.",
+        "Large Trade Splitting : For high-volume accounts, split large trades into manageable portions."
+      ]
+    },
+    {
+      "heading": "Efficiency and Customization",
+      "items": [
+        "Save and Load Settings Templates : Simplify repeated tasks with customizable templates.",
+        "OCO (One Cancels the Other) : Automatically cancel opposite pending orders when one is activated.",
+        "Risk-to-Reward Ratio Management : Maintain a balanced risk-to-reward ratio with each planned trade."
+      ]
+    }
+  ],
+  "screenshots": {
+    "has_video": true,
+    "count": 10,
+    "items": [
+      {
+        "image_url": "https://c.mql5.com/31/730/forex-trade-manager-mt5-screen-3873.gif",
+        "caption_alt_text": "Screenshot #1 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/669/forex-trade-manager-mt5-screen-3623.gif",
+        "caption_alt_text": "Screenshot #2 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/588/forex-trade-manager-mt5-screen-9918.gif",
+        "caption_alt_text": "Screenshot #3 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/512/forex-trade-manager-mt5-screen-4195.png",
+        "caption_alt_text": "Screenshot #4 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/512/forex-trade-manager-mt5-screen-4617.png",
+        "caption_alt_text": "Screenshot #5 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/512/forex-trade-manager-mt5-screen-5240.png",
+        "caption_alt_text": "Screenshot #6 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/512/forex-trade-manager-mt5-screen-5087.png",
+        "caption_alt_text": "Screenshot #7 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/512/forex-trade-manager-mt5-screen-4531.png",
+        "caption_alt_text": "Screenshot #8 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/496/forex-trade-manager-mt5-screen-7701.png",
+        "caption_alt_text": "Screenshot #9 Forex Trade Manager MT5"
+      },
+      {
+        "image_url": "https://c.mql5.com/31/496/forex-trade-manager-mt5-screen-7097.png",
+        "caption_alt_text": "Screenshot #10 Forex Trade Manager MT5"
+      }
+    ]
+  },
+  "pricing": {
+    "price_text": "99 USD",
+    "has_free_demo": true,
+    "demo_download_count": 13062,
+    "pricing_tiers_or_buy_buttons_found": [],
+    "note": "Single price shown on page; no separate rent/subscription tier detected."
+  },
+  "reviews_fetched": 15,
+  "reviews": [
+    {
+      "author": "PWOODWARD",
+      "date": "2026.09.30 15:40",
+      "rating": 5.0,
+      "text": "Excellent software and outstanding support Really impressed with Trade Manager. It has excellent functionality and gives me the flexibility to manage my trades exactly how I want. I was offered a 7-day free trial, which was kindly extended for another 7 days so I had enough time to properly test the software before purchasing. The customer support has been exceptional – responses are extremely quick, helpful and often outside normal working hours. Denis has gone above and beyond to answer my questions and help me get everything configured correctly. Highly recommended."
+    },
+    {
+      "author": "István Zsoldi",
+      "date": "2026.09.30 11:14",
+      "rating": 5.0,
+      "text": "Love it! I recommend!"
+    },
+    {
+      "author": "Franky1972",
+      "date": "2026.09.30 01:54",
+      "rating": 4.5,
+      "text": "Very useful Trade Manager, easy to install and use. Excellent and fast support from the developer. Highly recommended."
+    },
+    {
+      "author": "mlt87",
+      "date": "2026.09.29 20:34",
+      "rating": 5.0,
+      "text": "Great tool. It's exactly what I was looking for. The support team answered my questions extremely quickly. It's amazing how well it works: Placing orders through the mobile app, and the program handles the rest."
+    },
+    {
+      "author": "RichBAns",
+      "date": "2026.09.28 16:45",
+      "rating": 5.0,
+      "text": "I'd just like to say how not only how impressed I am with the trade manager but also how amazing customer service is from the developer. He literally answers emails within minutes! I will be purchasing the lifetime version alongside the grid manager app that runs alongside the trade manager! This is actually my first purchase on MQL5 marketplace and I now feel so much more at ease with regards to making more purchases. 5 stars isn't really enough!!"
+    },
+    {
+      "author": "airwolf59",
+      "date": "2026.09.21 20:02",
+      "rating": 5.0,
+      "text": "Great tool for scalping."
+    },
+    {
+      "author": "Dan 20838",
+      "date": "2026.09.17 12:26",
+      "rating": 5.0,
+      "text": "excellent software. excellent after sales service and support. i had issues with setting up and support was super prompt with help and guidance."
+    },
+    {
+      "author": "This.Is.Akan",
+      "date": "2026.09.15 13:50",
+      "rating": 5.0,
+      "text": "This is an excellent trade manager. It's quite simple to set up and use. It has multiple functions for managing trades and I really like the breakeven, and take partial features. The questions I had about this trader manager was answered by support in a timely and friendly manner"
+    },
+    {
+      "author": "ATK ATIK",
+      "date": "2026.09.09 10:59",
+      "rating": 5.0,
+      "text": "Lucky to stumble upon such a tool. Only a team of real geniuses can build something like this. I can mold it as I wish, like mud turned into something I wanted. In a word, \"Awesome\"."
+    },
+    {
+      "author": "eduarroyo",
+      "date": "2026.09.03 16:26",
+      "rating": 5.0,
+      "text": "Great EA and top-quality support. Denis went above and beyond to help me resolve an execution issue with a prop firm account. Fast, dedicated, and very professional. 10/10!"
+    },
+    {
+      "author": "James Lee",
+      "date": "2026.09.03 05:33",
+      "rating": 5.0,
+      "text": "This is by far one of the most complete EA I have seen for single entry. The ATR method and auto-lot calculations are such a brilliant idea, now that the lot size can be automatically calculated for me based on my risk setting and RR defined. What I like most is the cability to enter an order with a 0.01 lot on my Mobile MT5 and the EA will figure out how many lots needed to enter based on my settings. Just this integration between the mobile MT5 and my VPS MT5 is already a winner for me. And not to mention the support staff, Dennis, that attended to me is super responsive and patience with my questions! I understand they even has add-on options for grids as well! Keep it up guys!"
+    },
+    {
+      "author": "Azmbaba42",
+      "date": "2026.09.02 10:41",
+      "rating": 5.0,
+      "text": "Excellent Tool, makes the life easier, excellent customer support. Works as intended."
+    },
+    {
+      "author": "paulstrong23",
+      "date": "2026.08.20 11:33",
+      "rating": 5.0,
+      "text": "Does what it says on the box, also excellent support if needed."
+    },
+    {
+      "author": "Jericho Rosete",
+      "date": "2026.08.19 06:35",
+      "rating": 5.0,
+      "text": "Solid tool. Great user support with fast replies."
+    },
+    {
+      "author": "wsbpinkguy",
+      "date": "2026.08.17 16:21",
+      "rating": 5.0,
+      "text": "I love this Trade Manager! It supports all the functions that others don't and it's backed by amazing instant customer service, I love it! This is without doubt the best trade manager you could find, I am lucky to find it! My thank you to the developer!"
+    }
+  ]
+}
