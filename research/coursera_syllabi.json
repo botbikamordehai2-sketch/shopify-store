@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://www.coursera.org/specializations/wiley-shopify-for-dummies",
+    "course": "Shopify For Dummies",
+    "institution": "John Wiley & Sons",
+    "level": "Beginner",
+    "duration": "1 month",
+    "rating": null,
+    "modules": [
+      "Shopify Foundations: Setting Up Your Online Store",
+      "Shopify Success: Managing Customers and Enhancing Experience",
+      "Shopify Growth: Marketing, Promotion, and Store Optimization"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/digital-marketing",
+    "course": "Digital Marketing",
+    "institution": "University of Illinois Urbana-Champaign",
+    "level": "Beginner",
+    "duration": "3 months",
+    "rating": {
+      "value": 4.67,
+      "count": 23143
+    },
+    "modules": [
+      "The Digital Marketing Revolution",
+      "Marketing in a Digital World",
+      "Digital Marketing: Customer Engagement Strategy",
+      "Digital Marketing: Platforms, Data, and Technologies",
+      "Digital Marketing Strategy: Navigating Emerging Media and AI",
+      "Digital Marketing Implementation: Executing Strategies in a Connected, Data-Driven World",
+      "Digital Marketing Capstone"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/seo",
+    "course": "Search Engine Optimization (SEO)",
+    "institution": "University of California, Davis",
+    "level": "Beginner",
+    "duration": "2 months",
+    "rating": {
+      "value": 4.64,
+      "count": 13110
+    },
+    "modules": [
+      "Introduction to Google SEO",
+      "Google SEO Fundamentals",
+      "Optimizing a Website for Google Search",
+      "Advanced Content and Social Tactics to Optimize SEO",
+      "Google SEO Capstone Project"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/google-analytics-data-driven-marketing-mastery-with-ai",
+    "course": "Google Analytics: Data-Driven Marketing Mastery with AI",
+    "institution": "Coursera",
+    "level": "Beginner",
+    "duration": "1 month",
+    "rating": null,
+    "modules": [
+      "Track Marketing Goals with Google Analytics",
+      "Optimize Campaigns & SEO Using Analytics Data",
+      "Boost Engagement with Audience Analytics",
+      "Marketing Dashboards & Data Storytelling with AI"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/aiformarketing",
+    "course": "AI for Marketing",
+    "institution": "Emory University",
+    "level": "Beginner",
+    "duration": "1 month",
+    "rating": {
+      "value": 4.47,
+      "count": 92
+    },
+    "modules": [
+      "What Can AI Do for Marketing?",
+      "Generative AI in Marketing",
+      "AI's Existing Impact",
+      "Driving Customer Equity with AI",
+      "Capstone: Making the Case for AI"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/ai-agents-and-automation",
+    "course": "AI Agents & Automation",
+    "institution": "SkillsBooster Academy",
+    "level": "Beginner",
+    "duration": "1 month",
+    "rating": {
+      "value": 4.73,
+      "count": 26
+    },
+    "modules": [
+      "Workplace Automation with Generative AI",
+      "Building Basic AI Agents",
+      "ChatGPT Workspace Agents for Teams",
+      "Claude Cowork for Automating Processes"
+    ]
+  }
+]
