@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-01T20:11:37.783977+00:00",
+  "timeframe": "today 12-m",
+  "regions_checked": [
+    "US",
+    "IL"
+  ],
+  "niches": [
+    {
+      "id": "smart_money_concepts_order_block",
+      "label": "Smart Money Concepts / Order Block Indicator",
+      "terms": [
+        "smart money concepts indicator",
+        "order block indicator mt4"
+      ],
+      "regions": {
+        "US": {
+          "average_interest": 1.05,
+          "trend": "declining",
+          "top_related_queries": [],
+          "note": null,
+          "per_term_average": {
+            "smart money concepts indicator": 0.21,
+            "order block indicator mt4": 1.89
+          }
+        },
+        "IL": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        }
+      },
+      "comparison": {
+        "higher_in": "US",
+        "us_avg": 1.05,
+        "il_avg": 0,
+        "ratio_us_to_il": null
+      }
+    },
+    {
+      "id": "supply_and_demand_indicator",
+      "label": "Supply and Demand Indicator (MT4)",
+      "terms": [
+        "supply and demand indicator mt4"
+      ],
+      "regions": {
+        "US": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        },
+        "IL": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        }
+      },
+      "comparison": {
+        "higher_in": "equal",
+        "us_avg": 0,
+        "il_avg": 0,
+        "ratio_us_to_il": null
+      }
+    },
+    {
+      "id": "forex_ea_robot_download",
+      "label": "Forex EA / Robot Free Download",
+      "terms": [
+        "forex ea free download",
+        "forex robot mt5"
+      ],
+      "regions": {
+        "US": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        },
+        "IL": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        }
+      },
+      "comparison": {
+        "higher_in": "equal",
+        "us_avg": 0,
+        "il_avg": 0,
+        "ratio_us_to_il": null
+      }
+    },
+    {
+      "id": "ict_trading_concepts",
+      "label": "ICT Trading Indicator / Concepts",
+      "terms": [
+        "ict trading indicator",
+        "ict concepts mt4"
+      ],
+      "regions": {
+        "US": {
+          "average_interest": 1.0,
+          "trend": "declining",
+          "top_related_queries": [],
+          "note": null,
+          "per_term_average": {
+            "ict trading indicator": 2.0,
+            "ict concepts mt4": 0.0
+          }
+        },
+        "IL": {
+          "average_interest": 0,
+          "trend": "no data",
+          "top_related_queries": [],
+          "note": "no interest-over-time data returned (volume too low to report)"
+        }
+      },
+      "comparison": {
+        "higher_in": "US",
+        "us_avg": 1.0,
+        "il_avg": 0,
+        "ratio_us_to_il": null
+      }
+    }
+  ]
+}
