@@ -95,7 +95,7 @@ Not pursued: pulling specifically low-starred reviews to find real
 complaints (would need an undocumented AJAX endpoint/rating filter not
 present on the static page — skipped to stay robots.txt-compliant).
 
-## 4. Proposed MVP scope (draft — needs your sign-off before anything is built)
+## 4. MVP scope — DECIDED (2026-10-02)
 
 **Core (parity with what traders already pay for):**
 - Risk-based position size calculator (account %, fixed $, or pip-based
@@ -106,11 +106,18 @@ present on the static page — skipped to stay robots.txt-compliant).
 **Differentiators (not in the leading competitor):**
 - Built-in trade log: every calculated/placed trade auto-logged with
   entry/SL/TP/lot size/outcome, exportable to CSV — a lightweight version
-  of the "Trade Journal" niche bundled in, not a separate purchase
-- Unlimited or clearly-more-generous activations than the 10-activation
-  cap
-- A cheaper entry tier alongside the full price, e.g. a "calculator only"
-  tier vs. a "calculator + protection tools + journal" tier
+  of the "Trade Journal" niche bundled in, not a separate purchase.
+  v1 is the raw log + CSV export only; no in-app stats or charts.
+- More generous activations than the competitor's 10-activation cap —
+  set to the highest count the MQL5 Market allows for the listing
+
+**Cut from v1 (moved to v2 candidates):**
+- ~~A cheaper entry tier alongside the full price~~ — conflicts with the
+  single-price $10→$29 decision in §5; the $10 intro price already
+  covers the price-sensitive-beginner angle. Revisit only after the $29
+  switch.
+- In-app trade analytics (win rate, stats dashboards) — the CSV export
+  is enough to validate whether buyers use the log at all.
 
 **Explicitly out of scope for v1:** mobile app, copy-trading/signal
 features, anything resembling the Grid/Martingale, Scalping, or Prop
@@ -212,7 +219,9 @@ decision left "still open."
 
 ## 6. Next steps (none of these are authorized yet)
 
-- [ ] Decide MVP feature list for real (trim/expand section 4)
+- [x] Decide MVP feature list (section 4) — **core calculator + SL/TP +
+      breakeven/trailing, plus CSV trade log and >10 activations; tiered
+      pricing and in-app analytics cut to v2** (2026-10-02)
 - [x] ~~Decide pricing direction (section 5) — free v1, price later on
       demand (2026-10-02)~~ — **superseded 2026-10-02, see §5a**
 - [x] Decide pricing direction (section 5, revised) — **$10 intro price,
