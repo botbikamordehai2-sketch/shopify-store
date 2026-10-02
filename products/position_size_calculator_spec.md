@@ -252,6 +252,29 @@ The revised decision in §5 above gets that proof directly with a real,
 low $10 price, and already has the exact threshold this original
 decision left "still open."
 
+## 5c. Launch & reviews plan (owner-approved direction, 2026-10-02)
+
+No fake or incentivised reviews — only buyers can review on MQL5, and
+manipulation risks the seller account. The plan:
+
+1. **Free "Lite" version** listed separately: the calculator panel only
+   (lot size, risk, SL/TP display) — no Buy/Sell buttons, no breakeven/
+   trailing, no trade log. Builds seller reputation and funnels users to
+   the paid version.
+2. **Professional product page**: clear screenshots, a ~1-minute usage
+   video, step-by-step instructions (prevents the frustration that causes
+   bad reviews).
+3. **Regular updates + fast bug fixes**: reminder runs on the 1st and
+   15th of each month (scheduled task `psrm-update-reminder`).
+4. **Launch price** for the first weeks, above the $30 floor, then $68.
+   Exact launch price and duration: still to decide.
+5. **Fast support** (the leader's most-praised strength) and a polite
+   check-in message to buyers a few days after purchase.
+
+Reference — reviews in this niche's top 10 (2026-10-01 scan): Forex Trade
+Manager 684 (765 on its own page); every other product has 1–8. There is
+no review minimum to list a product.
+
 ## 6. Next steps (none of these are authorized yet)
 
 - [x] Decide MVP feature list (section 4) — **core calculator + SL/TP +
@@ -273,5 +296,8 @@ decision left "still open."
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
       (no longer blocking — there is no planned switch; forum says once a
       day max) — **deferred to last, by owner's choice (2026-10-02)**
+- [ ] Build the free Lite version (§5c item 1)
+- [ ] Decide launch price and duration (§5c item 4)
+- [ ] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
 - [ ] Only once a human has approved a specific storefront listing: draft
       it under `storefront/`, per the root governance policy
