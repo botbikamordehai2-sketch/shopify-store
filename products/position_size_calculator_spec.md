@@ -266,9 +266,9 @@ manipulation risks the seller account. The plan:
    bad reviews).
 3. **Regular updates + fast bug fixes**: reminder runs on the 1st and
    15th of each month (scheduled task `psrm-update-reminder`).
-4. **Launch price: $67** for the first weeks, then $68 (owner,
-   2026-10-02; Claude noted the $1 difference is barely noticeable — owner
-   kept it). Duration: to set at upload time.
+4. **Launch price: $39** for the first weeks (~43% off), then $68
+   (owner, 2026-10-02; replaced a same-day $67 choice). Seller gets $31.20
+   per launch sale after the 20% commission. Duration: to set at upload.
 5. **Fast support** (the leader's most-praised strength) and a polite
    check-in message to buyers a few days after purchase.
 
@@ -300,7 +300,7 @@ no review minimum to list a product.
 - [x] Build the free Lite version (§5c item 1) — indicator
       `position_size_risk_manager/PositionSizeCalculatorLite.mq5`, compiles
       0/0 (2026-10-02). Still to check on a demo chart
-- [x] Decide launch price (§5c item 4) — **$67, then $68** (owner,
+- [x] Decide launch price (§5c item 4) — **$39, then $68** (owner,
       2026-10-02); duration still open
 - [ ] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
 - [ ] Only once a human has approved a specific storefront listing: draft

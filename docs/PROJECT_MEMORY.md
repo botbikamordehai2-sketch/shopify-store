@@ -62,7 +62,7 @@ Never record an approval Moti did not give in this conversation or in writing.
 ## 4. Current state (2026-10-02)
 
 - **Product:** Position Size & Risk Manager — MT5 Expert Advisor, sold on the
-  MQL5 Market (not Shopify). Price **$68** (launch **$67**), 20 activations.
+  MQL5 Market (not Shopify). Price **$68** (launch **$39**), 20 activations.
 - **Paid EA:** built; compiles 0/0; Strategy Tester passed on EURUSD, USDJPY,
   XAUUSD, US30; live demo check passed (lot/risk, mode button, BUY with SL/TP).
 - **Live demo trade log:** verified — EURUSD BUY 0.10 hit SL, −$20.00 = the
@@ -84,5 +84,5 @@ Never record an approval Moti did not give in this conversation or in writing.
 | 2026-10-02 | Moti | Claude builds everything; GPT only on request | spec §6, `7c5cd48` |
 | 2026-10-02 | Moti | Price $68 flat ($10→$29 plan dropped: MQL5 minimum is $30 — verified on mql5.com/en/market/rules) | spec §5, `186cb6c` |
 | 2026-10-02 | Moti | Launch plan: free Lite, pro product page, regular updates, launch price | spec §5c, `5fbdb53` |
-| 2026-10-02 | Moti | Launch price $67, then $68; duration open | spec §5c |
+| 2026-10-02 | Moti | Launch price $39 (~43% off), then $68; duration open (replaced $67 same day) | spec §5c |
 | 2026-10-02 | Moti | No paid/incentivised reviews or scraped emails; opt-in beta testers instead | spec §6, `5d62246` |
