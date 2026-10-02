@@ -159,6 +159,12 @@ needs explicit sign-off before implementation):**
 - Unit-sold count and review count/rating both need to be tracked against
   the 100-units / 20-reviews@4.5+ thresholds so the $10→$29 switch is
   triggered by data, not a guess at "demand feels high enough."
+- **Owner: you (the store owner), manual check** (decided 2026-10-02) —
+  no automated tracking is built. You check the product's own MQL5 page
+  periodically (unit sales + review count/rating are both shown there)
+  and raise the price yourself once either threshold is hit. Revisit
+  this if the manual check becomes a burden — an automated check script
+  is a small, later addition, not needed to launch.
 - The differentiators from §4 (trade log, generous activations) still
   apply at both the $10 and $29 price points — this decision only changes
   price, not scope.
@@ -212,9 +218,10 @@ decision left "still open."
 - [x] Decide pricing direction (section 5, revised) — **$10 intro price,
       raise to $29 at 100 units sold @ $10 OR 20 reviews @ 4.5★+,
       whichever first** (2026-10-02)
-- [ ] Wire up tracking for the two threshold metrics (units sold at $10;
-      review count + average rating) so the $10→$29 switch is
-      data-triggered, not manual guesswork
+- [x] Decide who tracks the threshold metrics — **you, manually, by
+      checking the product's MQL5 page periodically** (2026-10-02); an
+      automated tracking script is a possible later addition, not
+      needed to launch
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
       post-launch (needed for the $10→$29 switch to actually be
       executable when the threshold hits)
