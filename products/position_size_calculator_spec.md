@@ -296,7 +296,9 @@ no review minimum to list a product.
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
       (no longer blocking — there is no planned switch; forum says once a
       day max) — **deferred to last, by owner's choice (2026-10-02)**
-- [ ] Build the free Lite version (§5c item 1)
+- [x] Build the free Lite version (§5c item 1) — indicator
+      `position_size_risk_manager/PositionSizeCalculatorLite.mq5`, compiles
+      0/0 (2026-10-02). Still to check on a demo chart
 - [ ] Decide launch price and duration (§5c item 4)
 - [ ] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
 - [ ] Only once a human has approved a specific storefront listing: draft

@@ -14,6 +14,18 @@ submitted to the MQL5 Market.
 The panel sits at *Panel X / Panel Y* (default 10, 110) so it clears MT5's own
 One Click Trading panel in the chart corner.
 
+## Free Lite version
+
+`PositionSizeCalculatorLite.mq5` is a separate **indicator** (category:
+Indicators, price: free) with the calculator panel only — risk modes, SL/TP
+in pips, lot and money at risk, SL/TP prices, R:R. No Buy/Sell buttons, no
+breakeven/trailing, no trade log; a line on the panel points to the full
+version. Being an indicator, it cannot trade and needs no Algo Trading
+permission. Its sizing code is a copy of the EA's — change both together.
+Install it under `MQL5\Indicators\PSRM\` and attach from Navigator →
+Indicators → PSRM. Compiles with 0 errors / 0 warnings; not yet checked on a
+chart.
+
 ## Install for testing
 
 1. Copy `PositionSizeRiskManager.mq5` to
