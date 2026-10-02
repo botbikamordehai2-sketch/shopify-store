@@ -8,6 +8,24 @@ here and committed to GitHub is shared.
 This repo is **public**. Never write credentials, tokens, account numbers,
 customer data, private chat transcripts or personal contact details here.
 
+## 0. Project card
+
+| Field | Value |
+|---|---|
+| PROJECT_ID | `SHOPIFY_1` |
+| Repository | https://github.com/botbikamordehai2-sketch/shopify-store |
+| Local path | `C:\Users\User\Projects\shopify-store` |
+| Main branch | `main` |
+| Visibility | PUBLIC |
+| Shared memory | `docs/PROJECT_MEMORY.md` (this file) |
+| Specification / Tasks | `products/position_size_calculator_spec.md` (§6) |
+| Main code | `products/position_size_risk_manager/` |
+| Main builder | Claude |
+| Human owner / live approval | Moti |
+| Memory command | `PROJECT_SYNC: SHOPIFY_1` — read this file before work |
+| Current work command | `TASK: LITE_CHART_VALIDATION` |
+| Naming note | Repo is named `shopify-store` but its active content is MetaTrader/MQL5 trading tools. Not renamed now (would break links and commands); a rename would be one planned migration updating every reference. |
+
 ## 1. Where things live
 
 | What | Where | Who updates it |
