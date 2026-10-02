@@ -109,7 +109,7 @@ present on the static page — skipped to stay robots.txt-compliant).
   of the "Trade Journal" niche bundled in, not a separate purchase.
   v1 is the raw log + CSV export only; no in-app stats or charts.
 - More generous activations than the competitor's 10-activation cap —
-  set to the highest count the MQL5 Market allows for the listing
+  set to 20, the MQL5 Market maximum
 
 **Cut from v1 (moved to v2 candidates):**
 - ~~A cheaper entry tier alongside the full price~~ — conflicts with the
@@ -123,7 +123,42 @@ present on the static page — skipped to stay robots.txt-compliant).
 features, anything resembling the Grid/Martingale, Scalping, or Prop
 Firm/FTMO niches this scan flagged as High competition.
 
-## 5. Pricing — REVISED DECISION (2026-10-02): $10 intro price, raise to $29 at threshold
+## 5. Pricing — DECIDED (2026-10-02, owner): $68 flat
+
+**Decision:** v1 lists on the MQL5 Market at **$68**, one price, no intro
+tier and no threshold switch.
+
+**Why the earlier $10 → $29 plan (§5b) was dropped:** the MQL5 Market's
+own rules set a **$30 minimum** for any paid product, purchase or rent
+([Market rules](https://www.mql5.com/en/market/rules)), so neither $10 nor
+$29 can be listed.
+
+**Why $68:** every paid product in this niche's top 10 is $99 or above
+(table below), so $68 is still clearly the cheapest paid option while
+keeping more per sale than the $30 floor. Market facts that apply:
+- MQL5 takes a 20% commission → **$54.40 per sale** to the seller.
+- Max activations per purchase is **20** (MQL5 cap) — set the listing to
+  20, double Forex Trade Manager's 10.
+- Paid products get MQL5's automatic free demo (Strategy Tester only),
+  which covers the "try before you buy" role the low intro price had.
+- Price changes are reportedly limited to once a day (MQL5 forum; not
+  stated on the rules page).
+
+| Product | Price |
+|---|---|
+| Forex Trade Manager MT5 | $99 |
+| Pulsar Terminal MT5 | $99 |
+| Smart Market Structure Toolkit | $175 |
+| MT5 Trading Deck | $289 |
+
+Caveat: this is the top 10 of ~140 search results (2026-10-01 scan);
+cheaper paid products may exist further down the list.
+
+### 5b. Superseded: $10 intro price, raise to $29 at threshold (2026-10-02, superseded same day)
+
+> **Status: SUPERSEDED — below the MQL5 Market's $30 minimum. Kept for the
+> audit trail — do not act on this.**
+
 
 **This supersedes the original "free v1" decision made earlier the same
 day.** The original decision and its full reasoning are kept below in
@@ -224,22 +259,19 @@ decision left "still open."
       pricing and in-app analytics cut to v2** (2026-10-02)
 - [x] ~~Decide pricing direction (section 5) — free v1, price later on
       demand (2026-10-02)~~ — **superseded 2026-10-02, see §5a**
-- [x] Decide pricing direction (section 5, revised) — **$10 intro price,
-      raise to $29 at 100 units sold @ $10 OR 20 reviews @ 4.5★+,
-      whichever first** (2026-10-02)
-- [x] Decide who tracks the threshold metrics — **you, manually, by
-      checking the product's MQL5 page periodically** (2026-10-02); an
-      automated tracking script is a possible later addition, not
-      needed to launch
+- [x] ~~Decide pricing direction (section 5, revised) — $10 intro price,
+      raise to $29 at 100 units sold @ $10 OR 20 reviews @ 4.5★+~~ —
+      **superseded 2026-10-02: below MQL5's $30 minimum, see §5b**
+- [x] Final price — **$68 flat, 20 activations** (owner, 2026-10-02)
 - [x] Decide who builds the indicator/EA — **Claude** (reassigned from
       GPT, 2026-10-02). v1 EA is in
       [`position_size_risk_manager/`](position_size_risk_manager/) and
       compiles with 0 errors / 0 warnings and passed Strategy Tester on EURUSD, USDJPY, XAUUSD, US30
-- [ ] Manual panel checks on a demo account (clicking/editing) with the checklist in
-      `position_size_risk_manager/README.md` before anything is listed
+- [x] Manual panel check on a demo account (2026-10-02): lot/risk
+      correct, mode button cycles, BUY opened with correct SL/TP. Still
+      to watch on a live demo trade: breakeven, trailing, CSV row
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
-      post-launch (needed for the $10→$29 switch to actually be
-      executable when the threshold hits) — **deferred to last, by
-      owner's choice (2026-10-02)**
+      (no longer blocking — there is no planned switch; forum says once a
+      day max) — **deferred to last, by owner's choice (2026-10-02)**
 - [ ] Only once a human has approved a specific storefront listing: draft
       it under `storefront/`, per the root governance policy
