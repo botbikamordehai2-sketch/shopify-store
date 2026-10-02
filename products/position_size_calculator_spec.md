@@ -231,10 +231,12 @@ decision left "still open."
       checking the product's MQL5 page periodically** (2026-10-02); an
       automated tracking script is a possible later addition, not
       needed to launch
+- [x] Decide who builds the indicator/EA — **GPT writes the MQL5 code
+      against the §4 scope; you compile it in MetaEditor and test it on
+      a demo account before anything is listed** (2026-10-02)
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
       post-launch (needed for the $10→$29 switch to actually be
-      executable when the threshold hits)
-- [ ] Source or scope the actual indicator/EA build (not covered by this
-      repo's research scripts — this is a dev task)
+      executable when the threshold hits) — **deferred to last, by
+      owner's choice (2026-10-02)**
 - [ ] Only once a human has approved a specific storefront listing: draft
       it under `storefront/`, per the root governance policy
