@@ -4,8 +4,10 @@ v1 build of the product specified in
 [`../position_size_calculator_spec.md`](../position_size_calculator_spec.md) §4.
 Sold on the MQL5 Market (category: Utilities), not through Shopify.
 
-**Status:** compiles in MetaEditor (0 errors, 0 warnings). Not yet tested on a
-demo account. Nothing has been submitted to the MQL5 Market.
+**Status:** compiles in MetaEditor (0 errors, 0 warnings). Strategy Tester
+passed on EURUSD, USDJPY, XAUUSD and US30 (see *Tester results* below). The
+manual panel checks (clicking, editing fields) still need a person on a demo
+account. Nothing has been submitted to the MQL5 Market.
 
 ## Install for testing
 
@@ -20,13 +22,36 @@ demo account. Nothing has been submitted to the MQL5 Market.
 |---|---|
 | Lot size from risk | Mode button cycles **Risk %** (of balance) → **Risk $** (fixed amount) → **Fixed lot** (shows the resulting risk). Lot is rounded *down* to the symbol's volume step, so risk is never exceeded. Uses `OrderCalcProfit`, so it is correct for forex, JPY pairs, metals and indices. |
 | SL / TP | Entered in pips on the panel; shown in pips, points, price and money, with R:R. TP 0 = none. |
-| Buy / Sell | Opens at market with the calculated lot, SL and TP. Checks algo-trading permission, symbol trade mode, stops level and free margin first. |
+| Buy / Sell | Opens at market with the calculated lot, SL and TP. Checks trading session, algo-trading permission, symbol trade mode, stops level, SL beyond the spread, and free margin first. |
 | Breakeven | Once profit ≥ trigger pips, SL moves to entry + offset pips. |
 | Trailing stop | Once profit ≥ trailing distance, SL trails at that distance, moving only in steps of *step* pips. |
 | Trade log | Every closed trade opened by this EA is appended to `MQL5\Files\PSRM_trade_log.csv`: open time, symbol, direction, entry, SL, TP, lots, risk, close time, close price, profit, swap, commission. |
 
-Pip = 10 points on 3/5-digit symbols, otherwise 1 point (so XAUUSD with 2
-digits treats 0.01 as a pip — the panel always shows points too).
+What one pip means (auto; override with *Points per pip*):
+
+- Forex: 10 points on 3/5-digit quotes (0.0001, or 0.01 on JPY pairs), else 1 point.
+- Metals (XAU/XAG/GOLD): 0.1.
+- Everything else (indices, crypto, stocks, other CFDs): 1.0 price unit.
+
+The panel always shows points and price too, so the pip convention is visible.
+
+## Tester results (2026-10-02, MetaQuotes-Demo, H1, 2026.06.01–09.30)
+
+Settings: balance 10,000 USD, risk 1%, SL 20 pips, TP 40, breakeven 15/1,
+trailing 20/5, demo trades on. Zero order or SL-modify errors on every symbol.
+
+| Symbol | Trades logged | Sample lot (risk) | Expected |
+|---|---|---|---|
+| EURUSD | 176 | 0.49 (98.00 USD) | 0.50 at full balance ✓ |
+| USDJPY | 464 | 0.79 (99.25 USD) at 159.40 | 100 / (20 × 1000/159.4) = 0.797 → 0.79 ✓ |
+| XAUUSD | 1908 | 0.49 (98.00 USD), SL 2.00 | 98 / 200 = 0.49 ✓ |
+| US30 | 1814 | 5.0 (100.00 USD), SL 20 points | ✓ |
+
+Breakeven exits show as +1 pip closes (e.g. EURUSD +4.90 on 0.49 lots) and
+trailing exits as larger partial-run profits, so both fire. On US30 the EA
+correctly refused trades when free margin was too low and outside the
+trading session. The P&L of these runs is meaningless — demo trades just
+alternate buy/sell to exercise the code.
 
 ## Demo-account test checklist
 
@@ -36,7 +61,7 @@ Run on a **demo** account. For each step, compare with the expected result.
    Expected: risk ≈ 100 USD, lot = 0.50 (EURUSD ≈ $10/pip per lot → 100 / (20 × 10)).
 2. **Lot, USDJPY** — same settings. Expected lot ≈ 100 / (20 × pip value);
    pip value per lot ≈ 1000 / USDJPY rate in USD (≈ $6.67 at 150) → ≈ 0.75.
-3. **Lot, XAUUSD** — risk $100, SL 200 pips (= 2.00 price move with 2 digits).
+3. **Lot, XAUUSD** — risk $100, SL 20 pips (= 2.00 price move).
    Contract 100 oz → $200 loss per lot → lot 0.50. Check your broker's
    contract size in the symbol specification; it changes the answer.
 4. **Fixed lot mode** — set 0.10; panel must show the money and % at risk.

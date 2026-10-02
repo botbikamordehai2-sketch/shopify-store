@@ -234,8 +234,8 @@ decision left "still open."
 - [x] Decide who builds the indicator/EA — **Claude** (reassigned from
       GPT, 2026-10-02). v1 EA is in
       [`position_size_risk_manager/`](position_size_risk_manager/) and
-      compiles with 0 errors / 0 warnings
-- [ ] Test the EA on a demo account with the checklist in
+      compiles with 0 errors / 0 warnings and passed Strategy Tester on EURUSD, USDJPY, XAUUSD, US30
+- [ ] Manual panel checks on a demo account (clicking/editing) with the checklist in
       `position_size_risk_manager/README.md` before anything is listed
 - [ ] Confirm how the MQL5 Market lets a live listing's price be changed
       post-launch (needed for the $10→$29 switch to actually be

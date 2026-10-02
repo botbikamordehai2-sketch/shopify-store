@@ -32,6 +32,7 @@ input double         InpTrailPips      = 20.0;       // Trailing distance (pips,
 input double         InpTrailStepPips  = 5.0;        // Trailing step (pips)
 
 input group "General"
+input int            InpPointsPerPip   = 0;          // Points per pip (0 = auto)
 input long           InpMagic          = 20261002;   // Magic number
 input int            InpSlippagePoints = 10;         // Max slippage (points)
 input string         InpLogFile        = "PSRM_trade_log.csv"; // Trade log file (MQL5\Files)
@@ -53,7 +54,18 @@ bool           g_demoBuy = true;
 //+------------------------------------------------------------------+
 double PipSize()
   {
-   return (_Digits == 3 || _Digits == 5) ? _Point * 10.0 : _Point;
+   if(InpPointsPerPip > 0)
+      return InpPointsPerPip * _Point;
+   // Metals: a pip is conventionally 0.1 (gold) regardless of the broker's digits.
+   string s = _Symbol;
+   StringToUpper(s);
+   if((StringFind(s, "XAU") == 0 || StringFind(s, "XAG") == 0 || StringFind(s, "GOLD") == 0) && _Point < 0.1)
+      return 0.1;
+   long calc = SymbolInfoInteger(_Symbol, SYMBOL_TRADE_CALC_MODE);
+   if(calc == SYMBOL_CALC_MODE_FOREX || calc == SYMBOL_CALC_MODE_FOREX_NO_LEVERAGE)
+      return (_Digits == 3 || _Digits == 5) ? _Point * 10.0 : _Point;
+   // Indices, crypto, stocks and other CFDs: traders count whole price units.
+   return MathMax(1.0, _Point);
   }
 
 double NormPrice(double price)
@@ -112,7 +124,8 @@ struct SizeResult
    string            error;
   };
 
-SizeResult CalcSize(bool isBuy)
+// minSLDist: lower bound on the SL distance in price (used by tester demo trades).
+SizeResult CalcSize(bool isBuy, double minSLDist = 0.0)
   {
    SizeResult r;
    r.lot = 0;
@@ -120,8 +133,9 @@ SizeResult CalcSize(bool isBuy)
    r.reward = 0;
    r.error = "";
    double pip = PipSize();
+   double slDist = MathMax(g_slPips * pip, minSLDist);
    r.entry = isBuy ? SymbolInfoDouble(_Symbol, SYMBOL_ASK) : SymbolInfoDouble(_Symbol, SYMBOL_BID);
-   r.sl = NormPrice(isBuy ? r.entry - g_slPips * pip : r.entry + g_slPips * pip);
+   r.sl = NormPrice(isBuy ? r.entry - slDist : r.entry + slDist);
    r.tp = (g_tpPips > 0) ? NormPrice(isBuy ? r.entry + g_tpPips * pip : r.entry - g_tpPips * pip) : 0.0;
    if(r.entry <= 0)
      {
@@ -159,8 +173,29 @@ SizeResult CalcSize(bool isBuy)
 //+------------------------------------------------------------------+
 //| Pre-trade checks (MQL5 Market requirements)                      |
 //+------------------------------------------------------------------+
+bool IsTradeSessionOpen()
+  {
+   // The tester simulates time through ticks, so TimeTradeServer() does not follow it there.
+   MqlDateTime now;
+   TimeToStruct(MQLInfoInteger(MQL_TESTER) ? TimeCurrent() : TimeTradeServer(), now);
+   datetime sinceMidnight = (datetime)(now.hour * 3600 + now.min * 60 + now.sec);
+   datetime from, to;
+   for(uint i = 0; SymbolInfoSessionTrade(_Symbol, (ENUM_DAY_OF_WEEK)now.day_of_week, i, from, to); i++)
+     {
+      // A session ending at 00:00 (or 24:00) runs to midnight.
+      if(sinceMidnight >= from && (sinceMidnight < to || to <= from))
+         return true;
+     }
+   return false;
+  }
+
 bool CanTrade(bool isBuy, const SizeResult &r, string &why)
   {
+   if(!IsTradeSessionOpen())
+     {
+      why = "Market is closed";
+      return false;
+     }
    if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED) || !MQLInfoInteger(MQL_TRADE_ALLOWED))
      {
       why = "Algo trading is disabled";
@@ -189,6 +224,14 @@ bool CanTrade(bool isBuy, const SizeResult &r, string &why)
       why = "SL/TP closer than broker stops level";
       return false;
      }
+   // A buy closes at Bid and a sell at Ask, so the SL must sit beyond the spread.
+   double bid = SymbolInfoDouble(_Symbol, SYMBOL_BID);
+   double ask = SymbolInfoDouble(_Symbol, SYMBOL_ASK);
+   if((isBuy && r.sl >= bid - minDist) || (!isBuy && r.sl <= ask + minDist))
+     {
+      why = "SL is inside the spread - widen it";
+      return false;
+     }
    double margin = 0.0;
    ENUM_ORDER_TYPE type = isBuy ? ORDER_TYPE_BUY : ORDER_TYPE_SELL;
    if(!OrderCalcMargin(type, _Symbol, r.lot, r.entry, margin))
@@ -204,10 +247,17 @@ bool CanTrade(bool isBuy, const SizeResult &r, string &why)
    return true;
   }
 
-bool OpenTrade(bool isBuy, bool allowMinLot = false)
+// testerDemo: unattended tester run - keep SL clear of spread/stops level and fall back to the minimum lot.
+bool OpenTrade(bool isBuy, bool testerDemo = false)
   {
-   SizeResult r = CalcSize(isBuy);
-   if(allowMinLot && r.lot <= 0 && r.error == "Lot below symbol minimum")
+   double minSLDist = 0.0;
+   if(testerDemo)
+     {
+      double spread = SymbolInfoDouble(_Symbol, SYMBOL_ASK) - SymbolInfoDouble(_Symbol, SYMBOL_BID);
+      minSLDist = (double)SymbolInfoInteger(_Symbol, SYMBOL_TRADE_STOPS_LEVEL) * _Point + 3.0 * spread;
+     }
+   SizeResult r = CalcSize(isBuy, minSLDist);
+   if(testerDemo && r.lot <= 0 && r.error == "Lot below symbol minimum")
      {
       r.lot = SymbolInfoDouble(_Symbol, SYMBOL_VOLUME_MIN);
       r.error = "";
@@ -215,6 +265,8 @@ bool OpenTrade(bool isBuy, bool allowMinLot = false)
    string why = "";
    if(!CanTrade(isBuy, r, why))
      {
+      if(why != g_status)
+         Print("Trade not opened: ", why);
       g_status = why;
       return false;
      }
