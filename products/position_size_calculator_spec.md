@@ -116,12 +116,62 @@ present on the static page — skipped to stay robots.txt-compliant).
 features, anything resembling the Grid/Martingale, Scalping, or Prop
 Firm/FTMO niches this scan flagged as High competition.
 
-## 5. Pricing — DECIDED (2026-10-02): launch FREE, price later on demand
+## 5. Pricing — REVISED DECISION (2026-10-02): $10 intro price, raise to $29 at threshold
 
-**Decision:** v1 ships free. Rationale: use it to drive downloads/reviews/
-traffic first; introduce pricing once there's enough signal (downloads,
-review volume, feature requests) to justify it, rather than guessing a
-number now.
+**This supersedes the original "free v1" decision made earlier the same
+day.** The original decision and its full reasoning are kept below in
+§5a, collapsed but not deleted, for the audit trail.
+
+**Decision:** v1 launches at a **$10 intro price**, then raises to **$29**
+once *either* of these is hit first:
+- **100 units sold at $10**, or
+- **20 reviews at 4.5 stars or higher**
+
+whichever threshold is reached first triggers the move to $29.
+
+**Why $29, specifically:** every paid product in this niche's top 10 is
+priced at $99 or above —
+
+| Product | Price |
+|---|---|
+| Forex Trade Manager MT5 | $99 |
+| Pulsar Terminal MT5 | $99 |
+| Smart Market Structure Toolkit | $175 |
+| MT5 Trading Deck | $289 |
+
+— so **$29 fills the real, currently-empty gap** between this niche's free
+products ($0) and the $99 anchor that every paid competitor sits at or
+above. It is not a discount off $99; it is a distinct, deliberately
+lower price point none of the established competitors occupy.
+
+**Why $10 as the intro price, not launching straight at $29:** a $10
+entry price is low enough to remove the price objection while still
+being a real paid-product signal (unlike free, it proves people will
+pay, not just download) — the thing §5a's free-v1 plan could not
+measure. $10 is for gathering that proof (unit sales + rating) fast,
+not the intended steady-state price.
+
+**What this means operationally (none of this is built/wired yet — still
+needs explicit sign-off before implementation):**
+- Price must be changeable without a re-submission/relist if avoidable
+  (check the MQL5 Market's own price-update mechanism for an existing
+  listing before building anything that assumes otherwise).
+- Unit-sold count and review count/rating both need to be tracked against
+  the 100-units / 20-reviews@4.5+ thresholds so the $10→$29 switch is
+  triggered by data, not a guess at "demand feels high enough."
+- The differentiators from §4 (trade log, generous activations) still
+  apply at both the $10 and $29 price points — this decision only changes
+  price, not scope.
+
+### 5a. Superseded: original decision — free v1, price later on demand (2026-10-02, superseded same day)
+
+> **Status: SUPERSEDED by the decision above. Kept for the audit trail —
+> do not act on this.**
+
+**Original decision:** v1 ships free. Rationale: use it to drive
+downloads/reviews/traffic first; introduce pricing once there's enough
+signal (downloads, review volume, feature requests) to justify it,
+rather than guessing a number now.
 
 **Honest caveat from this niche's own data, so the strategy accounts for
 it rather than assumes free alone works:** in this scan's own top-10 for
@@ -147,11 +197,27 @@ just deferred indefinitely:**
   threshold, or a specific number of users explicitly asking for the
   journal/Pro feature). That threshold isn't set yet — still open.
 
+**Why this was superseded:** free-v1 never actually proves anyone will
+*pay* for this (per the caveat above, free products in this niche get
+modest traction regardless) — it only proves people will download it.
+The revised decision in §5 above gets that proof directly with a real,
+low $10 price, and already has the exact threshold this original
+decision left "still open."
+
 ## 6. Next steps (none of these are authorized yet)
 
 - [ ] Decide MVP feature list for real (trim/expand section 4)
-- [x] Decide pricing direction (section 5) — **free v1, price later on demand** (2026-10-02)
-- [ ] Define the demand threshold that triggers introducing a paid tier
+- [x] ~~Decide pricing direction (section 5) — free v1, price later on
+      demand (2026-10-02)~~ — **superseded 2026-10-02, see §5a**
+- [x] Decide pricing direction (section 5, revised) — **$10 intro price,
+      raise to $29 at 100 units sold @ $10 OR 20 reviews @ 4.5★+,
+      whichever first** (2026-10-02)
+- [ ] Wire up tracking for the two threshold metrics (units sold at $10;
+      review count + average rating) so the $10→$29 switch is
+      data-triggered, not manual guesswork
+- [ ] Confirm how the MQL5 Market lets a live listing's price be changed
+      post-launch (needed for the $10→$29 switch to actually be
+      executable when the threshold hits)
 - [ ] Source or scope the actual indicator/EA build (not covered by this
       repo's research scripts — this is a dev task)
 - [ ] Only once a human has approved a specific storefront listing: draft
