@@ -37,6 +37,8 @@ input long           InpMagic          = 20261002;   // Magic number
 input int            InpSlippagePoints = 10;         // Max slippage (points)
 input string         InpLogFile        = "PSRM_trade_log.csv"; // Trade log file (MQL5\Files)
 input bool           InpTesterDemo     = true;       // Strategy Tester: open demo trades
+input int            InpPanelX         = 10;         // Panel X (pixels from left)
+input int            InpPanelY         = 110;        // Panel Y (pixels from top; clears One Click Trading)
 
 #define PFX "PSRM_"
 
@@ -427,7 +429,15 @@ void MakeLabel(string name, int x, int y, string text, int size = 9, color clr =
    ObjectSetInteger(0, n, OBJPROP_YDISTANCE, y);
    ObjectSetInteger(0, n, OBJPROP_FONTSIZE, size);
    ObjectSetInteger(0, n, OBJPROP_COLOR, clr);
-   ObjectSetString(0, n, OBJPROP_TEXT, text);
+   // An empty OBJ_LABEL renders as "Label", so blank text is a single space.
+   ObjectSetString(0, n, OBJPROP_TEXT, text == "" ? " " : text);
+  }
+
+// Updates a label's text/colour without moving it.
+void SetText(string name, string text, color clr = clrWhite)
+  {
+   ObjectSetString(0, PFX + name, OBJPROP_TEXT, text == "" ? " " : text);
+   ObjectSetInteger(0, PFX + name, OBJPROP_COLOR, clr);
   }
 
 void MakeBox(string name, ENUM_OBJECT type, int x, int y, int w, int h, string text, color bg, color fg)
@@ -470,22 +480,22 @@ string ValueText()
 
 void BuildPanel()
   {
-   const int x = 10, y = 25, w = 290;
+   const int x = InpPanelX, y = InpPanelY, w = 330;
    color bg = C'30,34,42', fieldBg = C'45,50,60';
    MakeBox("bg", OBJ_RECTANGLE_LABEL, x, y, w, 232, "", bg, C'70,75,85');
    MakeLabel("title", x + 10, y + 8, "Position Size & Risk", 10, clrGold);
    MakeBox("mode", OBJ_BUTTON, x + 10, y + 34, 130, 22, ModeText(), fieldBg, clrWhite);
-   MakeBox("value", OBJ_EDIT, x + 150, y + 34, 130, 22, ValueText(), fieldBg, clrWhite);
+   MakeBox("value", OBJ_EDIT, x + 150, y + 34, 170, 22, ValueText(), fieldBg, clrWhite);
    MakeLabel("sl_lbl", x + 10, y + 66, "SL pips", 9, clrSilver);
    MakeBox("sl", OBJ_EDIT, x + 70, y + 64, 70, 22, DoubleToString(g_slPips, 1), fieldBg, clrWhite);
    MakeLabel("tp_lbl", x + 150, y + 66, "TP pips", 9, clrSilver);
-   MakeBox("tp", OBJ_EDIT, x + 210, y + 64, 70, 22, DoubleToString(g_tpPips, 1), fieldBg, clrWhite);
+   MakeBox("tp", OBJ_EDIT, x + 210, y + 64, 110, 22, DoubleToString(g_tpPips, 1), fieldBg, clrWhite);
    MakeLabel("lot", x + 10, y + 96, "");
    MakeLabel("risk", x + 10, y + 116, "");
    MakeLabel("slinfo", x + 10, y + 136, "", 8, clrSilver);
    MakeLabel("tpinfo", x + 10, y + 154, "", 8, clrSilver);
    MakeBox("buy", OBJ_BUTTON, x + 10, y + 176, 130, 26, "BUY", C'0,120,80', clrWhite);
-   MakeBox("sell", OBJ_BUTTON, x + 150, y + 176, 130, 26, "SELL", C'170,40,40', clrWhite);
+   MakeBox("sell", OBJ_BUTTON, x + 150, y + 176, 170, 26, "SELL", C'170,40,40', clrWhite);
    MakeLabel("status", x + 10, y + 208, "", 8, clrSilver);
   }
 
@@ -500,24 +510,24 @@ void UpdatePanel()
 
    if(b.error != "")
      {
-      MakeLabel("lot", 20, 121, "Lot: -  (" + b.error + ")", 9, clrOrange);
-      MakeLabel("risk", 20, 141, "");
+      SetText("lot", "Lot: -  (" + b.error + ")", clrOrange);
+      SetText("risk", "");
      }
    else
      {
-      MakeLabel("lot", 20, 121, StringFormat("Lot  Buy %s  /  Sell %s",
+      SetText("lot", StringFormat("Lot  Buy %s  /  Sell %s",
                 DoubleToString(b.lot, vd), DoubleToString(s.lot, vd)));
-      MakeLabel("risk", 20, 141, StringFormat("Risk %s %s  (%.2f%%)", DoubleToString(b.risk, 2), cur,
+      SetText("risk", StringFormat("Risk %s %s  (%.2f%%)", DoubleToString(b.risk, 2), cur,
                 bal > 0 ? b.risk / bal * 100.0 : 0.0));
      }
-   MakeLabel("slinfo", 20, 161, StringFormat("SL %.1f pips | %.0f pts | buy %s / sell %s",
-             g_slPips, pts, DoubleToString(b.sl, _Digits), DoubleToString(s.sl, _Digits)), 8, clrSilver);
+   SetText("slinfo", StringFormat("SL %.1f pips | %.0f pts | buy %s / sell %s",
+             g_slPips, pts, DoubleToString(b.sl, _Digits), DoubleToString(s.sl, _Digits)), clrSilver);
    if(g_tpPips > 0)
-      MakeLabel("tpinfo", 20, 179, StringFormat("TP %.1f pips | +%s %s | R:R 1:%.2f", g_tpPips,
-                DoubleToString(b.reward, 2), cur, g_slPips > 0 ? g_tpPips / g_slPips : 0.0), 8, clrSilver);
+      SetText("tpinfo", StringFormat("TP %.1f pips | +%s %s | R:R 1:%.2f", g_tpPips,
+                DoubleToString(b.reward, 2), cur, g_slPips > 0 ? g_tpPips / g_slPips : 0.0), clrSilver);
    else
-      MakeLabel("tpinfo", 20, 179, "TP none", 8, clrSilver);
-   MakeLabel("status", 20, 233, g_status, 8, clrSilver);
+      SetText("tpinfo", "TP none", clrSilver);
+   SetText("status", g_status, clrSilver);
    ChartRedraw();
   }
 

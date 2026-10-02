@@ -5,9 +5,14 @@ v1 build of the product specified in
 Sold on the MQL5 Market (category: Utilities), not through Shopify.
 
 **Status:** compiles in MetaEditor (0 errors, 0 warnings). Strategy Tester
-passed on EURUSD, USDJPY, XAUUSD and US30 (see *Tester results* below). The
-manual panel checks (clicking, editing fields) still need a person on a demo
-account. Nothing has been submitted to the MQL5 Market.
+passed on EURUSD, USDJPY, XAUUSD and US30 (see *Tester results* below).
+Live demo check 2026-10-02 (MetaQuotes-Demo, EURUSD): panel shows correct lot
+and risk, mode button cycles, BUY opened 0.10 lots with SL 20 / TP 40 pips.
+Breakeven/trailing/CSV on a live demo trade not yet observed. Nothing has been
+submitted to the MQL5 Market.
+
+The panel sits at *Panel X / Panel Y* (default 10, 110) so it clears MT5's own
+One Click Trading panel in the chart corner.
 
 ## Install for testing
 
