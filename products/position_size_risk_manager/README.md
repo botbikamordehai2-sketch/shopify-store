@@ -1,0 +1,57 @@
+# Position Size & Risk Manager (MT5 EA)
+
+v1 build of the product specified in
+[`../position_size_calculator_spec.md`](../position_size_calculator_spec.md) §4.
+Sold on the MQL5 Market (category: Utilities), not through Shopify.
+
+**Status:** compiles in MetaEditor (0 errors, 0 warnings). Not yet tested on a
+demo account. Nothing has been submitted to the MQL5 Market.
+
+## Install for testing
+
+1. Copy `PositionSizeRiskManager.mq5` to
+   `<MT5 data folder>\MQL5\Experts\PSRM\` (File → Open Data Folder).
+2. Open it in MetaEditor and press Compile (F7).
+3. In MT5, enable **Algo Trading**, then drag the EA onto a chart.
+
+## What it does
+
+| Feature | How |
+|---|---|
+| Lot size from risk | Mode button cycles **Risk %** (of balance) → **Risk $** (fixed amount) → **Fixed lot** (shows the resulting risk). Lot is rounded *down* to the symbol's volume step, so risk is never exceeded. Uses `OrderCalcProfit`, so it is correct for forex, JPY pairs, metals and indices. |
+| SL / TP | Entered in pips on the panel; shown in pips, points, price and money, with R:R. TP 0 = none. |
+| Buy / Sell | Opens at market with the calculated lot, SL and TP. Checks algo-trading permission, symbol trade mode, stops level and free margin first. |
+| Breakeven | Once profit ≥ trigger pips, SL moves to entry + offset pips. |
+| Trailing stop | Once profit ≥ trailing distance, SL trails at that distance, moving only in steps of *step* pips. |
+| Trade log | Every closed trade opened by this EA is appended to `MQL5\Files\PSRM_trade_log.csv`: open time, symbol, direction, entry, SL, TP, lots, risk, close time, close price, profit, swap, commission. |
+
+Pip = 10 points on 3/5-digit symbols, otherwise 1 point (so XAUUSD with 2
+digits treats 0.01 as a pip — the panel always shows points too).
+
+## Demo-account test checklist
+
+Run on a **demo** account. For each step, compare with the expected result.
+
+1. **Lot, Risk % mode** — EURUSD, balance 10,000, risk 1%, SL 20 pips.
+   Expected: risk ≈ 100 USD, lot = 0.50 (EURUSD ≈ $10/pip per lot → 100 / (20 × 10)).
+2. **Lot, USDJPY** — same settings. Expected lot ≈ 100 / (20 × pip value);
+   pip value per lot ≈ 1000 / USDJPY rate in USD (≈ $6.67 at 150) → ≈ 0.75.
+3. **Lot, XAUUSD** — risk $100, SL 200 pips (= 2.00 price move with 2 digits).
+   Contract 100 oz → $200 loss per lot → lot 0.50. Check your broker's
+   contract size in the symbol specification; it changes the answer.
+4. **Fixed lot mode** — set 0.10; panel must show the money and % at risk.
+5. **Too-small risk** — risk $0.01. Expected: "Lot below symbol minimum",
+   BUY/SELL do nothing.
+6. **Buy / Sell** — click each; position opens with the panel's lot, SL, TP.
+7. **Algo Trading off** — click BUY; status shows "Algo trading is disabled".
+8. **Breakeven** — trigger 15, offset 1; when the trade is +15 pips, SL jumps
+   to entry +1 pip (buy) / −1 pip (sell).
+9. **Trailing** — distance 20, step 5; at +20 pips SL starts following,
+   moving only in 5-pip steps, never backwards.
+10. **Trade log** — close a trade; open `MQL5\Files\PSRM_trade_log.csv`
+    (File → Open Data Folder) and check the row matches the trade.
+11. **Strategy Tester** — run on EURUSD and XAUUSD, any timeframe, "Every
+    tick". With *Strategy Tester: open demo trades* on, it should open and
+    close trades with no errors in the Journal (this mimics the MQL5 Market
+    automatic validation, which has no user to click the panel).
+12. **Remove EA** — all panel objects disappear from the chart.

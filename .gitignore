@@ -46,3 +46,7 @@ coverage/
 .DS_Store
 Thumbs.db
 *.swp
+
+# --- MQL5 build output ---
+*.ex5
+*.ex4
