@@ -302,7 +302,10 @@ no review minimum to list a product.
       0/0 (2026-10-02). Still to check on a demo chart
 - [x] Decide launch price (§5c item 4) — **$39, then $68** (owner,
       2026-10-02); duration still open
-- [ ] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
+- [x] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
+      — `position_size_risk_manager/listing/MQL5_PRODUCT_PAGE.md` (paid +
+      Lite pages, screenshot list, video outline, check-in message, beta
+      post). DRAFT — awaiting Moti's review (2026-10-02)
 - [ ] Only once a human has approved a specific storefront listing: draft
       it under `storefront/`, per the root governance policy
 - [ ] **Beta tester program** (before launch): post openly on the MQL5
