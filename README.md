@@ -3,6 +3,9 @@
 Repo for a Shopify store project: market/product research, storefront build,
 and light automation around store operations.
 
+**Agents and collaborators: read [`docs/PROJECT_MEMORY.md`](docs/PROJECT_MEMORY.md)
+first** — shared state, decisions, and who may edit what.
+
 ## Structure
 
 - `docs/` — architecture notes, decisions, setup guides.
