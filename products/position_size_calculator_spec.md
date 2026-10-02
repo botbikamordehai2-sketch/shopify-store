@@ -314,6 +314,13 @@ no review minimum to list a product.
       unsolicited messages). Testers get free Lite access and give honest
       feedback (what works, what's confusing, bugs). No review required in
       return (owner, 2026-10-02)
+- [ ] **MQL5 community presence** (Moti, daily ~15 min, by hand — no bots
+      or automated posting): answer questions, note trader pain points.
+      Daily reminder: scheduled task `mql5-daily-community` (20:00)
+- [ ] **After MT5 launch:** developer presence on GitHub + LinkedIn
+      (profile, launch post); forum demand scan from the terminal
+      (public pages only, polite rate, robots.txt) to find what traders
+      are missing → input for the next-niche research branch
 - [ ] **Last step — reviews:** after launch, collect real buyer reviews
       (check-in message, fast support). Only buyers can review on MQL5;
       no self-written or paid reviews (owner, 2026-10-02)
