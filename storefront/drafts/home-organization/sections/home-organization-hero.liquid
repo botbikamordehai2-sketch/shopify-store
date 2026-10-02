@@ -1,0 +1,23 @@
+<section class="organization-hero" lang="{{ localization.language.iso_code }}" {% if localization.language.iso_code == 'he' %}dir="rtl"{% endif %} aria-labelledby="OrganizationTitle-{{ section.id }}">
+  <div class="organization-hero__inner page-width">
+    <p class="organization-hero__eyebrow">{{ 'organization.hero.eyebrow' | t }}</p>
+    <h2 id="OrganizationTitle-{{ section.id }}">{{ 'organization.hero.title' | t }}</h2>
+    <p>{{ 'organization.hero.description' | t }}</p>
+    {% if section.settings.collection != blank %}
+      <a class="button" href="{{ section.settings.collection.url }}">{{ 'organization.hero.browse' | t }}</a>
+    {% endif %}
+  </div>
+</section>
+{% stylesheet %}
+.organization-hero { background: #f5f2eb; color: #23352d; padding-block: 3.2rem; text-align: start; }
+.organization-hero__inner { max-inline-size: 80rem; padding-inline: 2rem; }
+.organization-hero h2 { color: inherit; font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1.2; overflow-wrap: anywhere; margin-block: 1rem 1.6rem; }
+.organization-hero p { max-inline-size: 55rem; line-height: 1.7; }
+.organization-hero__eyebrow { font-weight: 600; }
+.organization-hero .button { min-block-size: 4.4rem; margin-block-start: 1.6rem; background: #23352d; color: #fff; padding-inline: 2.4rem; white-space: normal; text-align: center; }
+.organization-hero .button:focus-visible { outline: 3px solid #23352d; outline-offset: 5px; }
+@media screen and (min-width: 750px) { .organization-hero { padding-block: 6.4rem; } .organization-hero__inner { padding-inline: 4rem; } }
+{% endstylesheet %}
+{% schema %}
+{"name":"Home organization hero","settings":[{"type":"collection","id":"collection","label":"Collection"}],"presets":[{"name":"Home organization hero"}]}
+{% endschema %}
