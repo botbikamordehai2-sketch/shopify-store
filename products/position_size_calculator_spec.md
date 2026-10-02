@@ -301,6 +301,12 @@ no review minimum to list a product.
 - [ ] Draft the MQL5 product page text + buyer check-in message (§5c items 2, 5)
 - [ ] Only once a human has approved a specific storefront listing: draft
       it under `storefront/`, per the root governance policy
+- [ ] **Beta tester program** (before launch): post openly on the MQL5
+      forum and trading groups that allow it, asking traders to try a new
+      tool. Only people who reply get access (no scraped emails, no
+      unsolicited messages). Testers get free Lite access and give honest
+      feedback (what works, what's confusing, bugs). No review required in
+      return (owner, 2026-10-02)
 - [ ] **Last step — reviews:** after launch, collect real buyer reviews
       (check-in message, fast support). Only buyers can review on MQL5;
       no self-written or paid reviews (owner, 2026-10-02)
